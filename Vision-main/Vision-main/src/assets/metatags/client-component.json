@@ -1,0 +1,354 @@
+{
+  "section1": {
+    "cards": [
+      {
+        "url": "",
+        "text": "All"
+      },
+      {
+        "url": "",
+        "text": "Product Design"
+      },
+      {
+        "url": "",
+        "text": "Mobile Development"
+      },
+      {
+        "url": "",
+        "text": "Website Development"
+      },
+      {
+        "url": "",
+        "text": "Digital Marketing"
+      }
+    ]
+  },
+  "section2": {
+    "heading": "Innovative Digital Web Solutions",
+    "content": "Ouby data.",
+    "all": [
+      {
+        "url": "assets/images/hp-modelismo-popup.jpg", 
+        "previewUrl": "assets/images/hp-modelismo.jpg",
+        "text": "HP MODELISMO"
+      },
+      {
+        "url": "assets/images/globava-popup.png",
+        "previewUrl": "assets/images/globava.jpg",
+        "text": "Globava"
+      },
+  
+      {
+        "url": "assets/images/cashpost-popup.jpg",
+        "previewUrl": "assets/images/cashpost.jpg",
+        "text": "CashPost"
+      },
+      {
+        "url": "assets/images/horse24-popup.jpg",
+        "previewUrl": "assets/images/horse24.jpg",
+        "text": "Horse24"
+      },
+      {
+        "url": "assets/images/protectionplus-popup.jpg",
+        "previewUrl": "assets/images/protectionplus.jpg",
+        "text": "ProtectionPlus"
+      },
+      {
+        "url": "assets/images/infordata-popup.jpg",
+        "previewUrl": "assets/images/infordata.jpg",
+        "text": "Horse24"
+      },
+      {
+        "url": "assets/images/bookyourcook-popup.jpg",
+        "previewUrl": "assets/images/bookyourcook.jpg",
+        "text": "Book your cook"
+      },
+      {
+        "url": "assets/images/flipnbid-popup.jpg",
+        "previewUrl": "assets/images/flipnbid.jpg",
+        "text": "FlIPNBID"
+      },
+      {
+        "url": "assets/images/courtarround-popup.jpg",
+        "previewUrl": "assets/images/courtarround.jpg",
+        "text": "CourtArround"
+      },
+      {
+        "url": "assets/images/watchcomp-popup.jpg",
+        "previewUrl": "assets/images/watchcomp.jpg",
+        "text": "watchComps"
+      },
+      {
+        "url": "assets/images/gainnos-popup.jpg",
+        "previewUrl": "assets/images/gainnos.jpg",
+        "text": "Gainnoss"
+      },
+      {
+        "url": "assets/images/airbud-popup.jpg",
+        "previewUrl": "assets/images/airbud.jpg",
+        "text": "Airbuds"
+      },
+      {
+        "url": "assets/images/dj-mixinglab-popup.jpg",
+        "previewUrl": "assets/images/dj-mixinglab.jpg",
+        "text": "dj Mixinglab"
+      },
+      {
+        "url": "assets/images/falabella-popup.jpg",
+        "previewUrl": "assets/images/falabella.jpg",
+        "text": "Falabella"
+      },
+      {
+        "url": "assets/images/24papershop-popup.jpg",
+        "previewUrl": "assets/images/24papershop.png",
+        "text": "24papershop"
+      },
+      {
+        "url": "assets/images/Gameboosters-popup.jpg",
+        "previewUrl": "assets/images/Gameboosters.png",
+        "text": "Gameboosters"
+      },
+      {
+        "url": "assets/images/Pinless-20Pay-popup.jpg",
+        "previewUrl": "assets/images/Pinless Pay.png",
+        "text": "Pinless Pay"
+      },
+      {
+        "url": "assets/images/safetydrop-popup.jpg",
+        "previewUrl": "assets/images/safetydrop.png",
+        "text": "Safety Drop"
+      },
+      {
+        "url": "assets/images/Safetyengagement-popup.jpg",
+        "previewUrl": "assets/images/Safetyengagement.png",
+        "text": "Safety Engagement"
+      },
+
+      {
+        "url": "assets/images/pbois-popup.png",
+        "previewUrl": "assets/images/pbios.png",
+        "text": "pbios"
+      },
+
+      {
+        "url": "assets/images/asbai-popup.png",
+        "previewUrl": "assets/images/asbai.png",
+        "text": "Victor App"
+      },
+
+      {
+        "url": "assets/images/safetydrop-popu.png",
+        "previewUrl": "assets/images/SafetyDrop-app.png",
+        "text": "Safetydrop"
+      },
+
+      {
+        "url": "assets/images/pcr4travel-popup.png",
+        "previewUrl": "assets/images/PCR4Travel.png",
+        "text": "Covid App"
+      }
+    ],
+    "producdDesign": [
+      {
+        "url": "assets/images/airbud-popup.jpg",
+        "previewUrl": "assets/images/airbud.jpg",
+        "text": "Airbuds"
+      },
+      {
+        "url": "assets/images//horse24-popup.jpg",
+        "previewUrl": "assets/images/horse24.jpg",
+        "text": "Horse24"
+      },
+      {
+        "url": "assets/images/watchcomp-popup.jpg",
+        "previewUrl": "assets/images/watchcomp.jpg",
+        "text": "watchComps"
+      },
+      {
+        "url": "assets/images/courtarround-popup.jpg",
+        "previewUrl": "assets/images/courtarround.jpg",
+        "text": "CourtArround"
+      },
+      {
+        "url": "assets/images/protectionplus-popup.jpg",
+        "previewUrl": "assets/images/protectionplus.jpg",
+        "text": "ProtectionPlus"
+      },
+      {
+        "url": "assets/images/bookyourcook-popup.jpg",
+        "previewUrl": "assets/images/bookyourcook.jpg",
+        "text": "Book your cook"
+      },
+      {
+        "url": "assets/images/flipnbid-popup.jpg",
+        "previewUrl": "assets/images/flipnbid.jpg",
+        "text": "FlIPNBID"
+      },
+      {
+        "url": "assets/images/gainnos-popup.jpg",
+        "previewUrl": "assets/images/gainnos.jpg",
+        "text": "Gainnoss"
+      }
+    ],
+    "mobiledevelopment": [
+      {
+        "url": "assets/images/pbois-popup.png",
+        "previewUrl": "assets/images/pbios.png",
+        "text": "pbios"
+      },
+
+      {
+        "url": "assets/images/asbai-popup.png",
+        "previewUrl": "assets/images/asbai.png",
+        "text": "Victor App"
+      },
+
+      {
+        "url": "assets/images/safetydrop-popu.png",
+        "previewUrl": "assets/images/SafetyDrop-app.png",
+        "text": "Safetydrop"
+      },
+
+      {
+        "url": "assets/images/pcr4travel-popup.png",
+        "previewUrl": "assets/images/PCR4Travel.png",
+        "text": "Covid App"
+      }
+    ],
+    "websiteDevelopment": [
+      {
+        "url": "assets/images/airbud-popup.jpg",
+        "previewUrl": "assets/images/airbud.jpg",
+        "text": "Airbuds"
+      },
+      {
+        "url": "assets/images/flipnbid-popup.jpg",
+        "previewUrl": "assets/images/flipnbid.jpg",
+        "text": "FlIPNBID"
+      },
+      {
+        "url": "assets/images/safetydrop-popup.jpg",
+        "previewUrl": "assets/images/safetydrop.png",
+        "text": "Safety Drop"
+      },
+      {
+        "url": "assets/images//horse24-popup.jpg",
+        "previewUrl": "assets/images/horse24.jpg",
+        "text": "Horse24"
+      },
+      {
+        "url": "assets/images/dj-mixinglab-popup.jpg",
+        "previewUrl": "assets/images/dj-mixinglab.jpg",
+        "text": "dj Mixinglab"
+      },
+      {
+        "url": "assets/images/24papershop-popup.jpg",
+        "previewUrl": "assets/images/24papershop.png",
+        "text": "24papershop"
+      },
+      {
+        "url": "assets/images/Gameboosters-popup.jpg",
+        "previewUrl": "assets/images/Gameboosters.png",
+        "text": "Gameboosters"
+      },
+      {
+        "url": "assets/images/bookyourcook-popup.jpg",
+        "previewUrl": "assets/images/bookyourcook.jpg",
+        "text": "Book your cook"
+      },
+      {
+        "url": "assets/images/courtarround-popup.jpg",
+        "previewUrl": "assets/images/courtarround.jpg",
+        "text": "CourtArround"
+      },
+      {
+        "url": "assets/images/gainnos-popup.jpg",
+        "previewUrl": "assets/images/gainnos.jpg",
+        "text": "Gainnoss"
+      },
+      {
+        "url": "assets/images/watchcomp-popup.jpg",
+        "previewUrl": "assets/images/watchcomp.jpg",
+        "text": "watchComps"
+      }
+    ],
+    "qualityassurance": [
+      {
+        "url": "assets/images/courtarround-popup.jpg",
+        "previewUrl": "assets/images/courtarround.jpg",
+        "text": "CourtArround"
+      },
+      {
+        "url": "assets/images/watchcomp-popup.jpg",
+        "previewUrl": "assets/images/watchcomp.jpg",
+        "text": "watchComps"
+      },
+      {
+        "url": "assets/images/gainnos-popup.jpg",
+        "previewUrl": "assets/images/gainnos.jpg",
+        "text": "Gainnoss"
+      },
+      {
+        "url": "assets/images/airbud-popup.jpg",
+        "previewUrl": "assets/images/airbud.jpg",
+        "text": "Airbuds"
+      },
+      {
+        "url": "assets/images/bookyourcook-popup.jpg",
+        "previewUrl": "assets/images/bookyourcook.jpg",
+        "text": "Book your cook"
+      },
+      {
+        "url": "assets/images//horse24-popup.jpg",
+        "previewUrl": "assets/images/horse24.jpg",
+        "text": "Horse24"
+      },
+      {
+        "url": "assets/images/infordata-popup.jpg",
+        "previewUrl": "assets/images/infordata.jpg",
+        "text": "Horse24"
+      },
+      {
+        "url": "assets/images/cashpost-popup.jpg",
+        "previewUrl": "assets/images/cashpost.jpg",
+        "text": "CashPost"
+      },
+      {
+        "url": "assets/images/hp-modelismo-popup.jpg", 
+        "previewUrl": "assets/images/hp-modelismo.jpg",
+        "text": "HP MODELISMO"
+      },
+      {
+        "url": "assets/images/pcr4travel-popup.png",
+        "previewUrl": "assets/images/PCR4Travel.png",
+        "text": "Covid App"
+      },
+      {
+        "url": "assets/images/globava-popup.png",
+        "previewUrl": "assets/images/globava.jpg",
+        "text": "Globava"
+      }
+    ],
+    "digitalmarketing": [
+      {
+        "url": "assets/images/greenhsc-popup.jpg",
+        "previewUrl": "assets/images/greenhse.png",
+        "text": "Green Hse"
+      },
+      {
+        "url": "assets/images/vision-popup.jpg",
+        "previewUrl": "assets/images/vision.png",
+        "text": "Vision Vivante"
+      }
+    ]
+  },
+  "section3": {
+    "heading": "Got a project in mind? Get started now.",
+    "content": "It’s a pleasure to have you on our website. Let us know if there’s an opportunity for us to do something together.",
+    "cards": [
+      {
+        "link": "Let's Talk"
+      }
+    ]
+  }
+}

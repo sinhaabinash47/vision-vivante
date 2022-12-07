@@ -1,0 +1,152 @@
+<main>
+    <section class="banner_wrapper  first_section padding-100">
+      <div class="container-fluid inner-content">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-9 col-lg-8 text-center">
+            <h1 class="mb-4 mb-md-5"><span>Got a project in mind?</span></h1>
+            <h4>Let's get to work! Please answer a couple of short questions about you and your project.</h4>
+          </div>
+
+          <div class="col-md-9 mt-5">
+            <form method="" action="" class="v_form" [formGroup]="getqutoform" (ngSubmit)="onSubmit()">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" formControlName="name" id="name"
+                      [ngClass]="{'error': submitted && f['name'].errors}">
+                    <label for="name">Name*</label>
+                    <div *ngIf="submitted &&  f['name'].errors" class="required-text text-danger mb-3">
+                      <div *ngIf=" f['name']['errors']['required']">Name is required</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" formControlName="email" id="email" [ngClass]="{'error':submitted && f['name'].errors}">
+                    <label for="email">Email*</label>
+                    <div class="required-text text-danger mb-3"
+                    *ngIf="submitted  &&  f['email']['errors'] && f['email']['errors']['required']">Email is required</div>
+                    <div class="required-text text-danger"
+                    *ngIf="getqutoform.controls['email'].hasError('pattern') && (getqutoform.controls['email'].dirty || getqutoform.controls['email'].touched)">
+                    Please enter valid email address</div>
+                    
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group phone-group">
+                    <input type="number" class="form-control phone-number" formControlName="phone" id="phone_number" ng2TelInput [ngClass]="{'error':submitted && f['phone'].errors}">
+                    <label for="phone_number"></label>
+                    <div class="required-text"><span class="text-danger"
+                    *ngIf="getqutoform.controls['phone'].hasError('pattern') && (getqutoform.controls['phone'].dirty || getqutoform.controls['phone'].touched)">Please
+                    enter valid mobile number</span>
+                  <div *ngIf="submitted &&  f['phone'].errors" class="text-danger mb-3">
+                    <div *ngIf=" f['phone']['errors']['required']">Phone Number is required</div>
+                  </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" formControlName="about_comapny" id="tell_us_about_company" required>
+                    <label for="tell_us_about_company">Tell us about you or your company*</label>
+                    <div *ngIf="submitted &&  f['about_comapny'].errors" class="required-text text-danger mb-3">
+                      <div *ngIf=" f['about_comapny']['errors']['required']">This field is required</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" formControlName="about_project" id="tell_us_project" required>
+                    <label for="tell_us_project">Tell us about your project*</label>
+                    <div *ngIf="submitted &&  f['about_project'].errors" class="required-text text-danger mb-3">
+                      <div *ngIf=" f['about_project']['errors']['required']">This field is required</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <h5 class="heading-label mb-3">Project type*</h5>
+                    <div class="project-types" >
+                      <div class="list">
+                        <input type="checkbox" id="web" value="web" (change)="onCheckboxChange($event)"/>
+                        <label for="web">Web</label>
+                      </div>
+                      <div class="list">
+                        <input type="checkbox" id="android" value="Android" (change)="onCheckboxChange($event)">
+                        <label for="android">Android</label>
+                      </div>
+                      <div class="list">
+                        <input type="checkbox" id="ios" value="iOS" (change)="onCheckboxChange($event)">
+                        <label for="ios">iOS</label>
+                      </div>
+                      <div class="list">
+                        <input type="checkbox" id="uiuxdesign" value="UI/UX Design" (change)="onCheckboxChange($event)">
+                        <label for="uiuxdesign">UI/UX Design</label>
+                      </div>
+                      <div class="list">
+                        <input type="checkbox" id="others" value="Others" (change)="onCheckboxChange($event)">
+                        <label for="others">Others</label>
+                      </div>
+                    </div>
+                    <div *ngIf="submitted &&  f['checkArray'].value.length===0" class="text-danger mb-3">
+                      <div>Choose the option</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-3 mt-md-4 mb-md-4">
+                  <div class="form-group mb-0">
+                    <h5 class="heading-label mt-md-4 mb-2">What is your budget?*</h5>
+                  </div>
+                </div>
+                <div class="col-md-6 mt-md-4 mb-3 mb-md-4">
+                  <div class="form-group">
+                    <select class="form-control form-select" formControlName="budget">
+                      <option value="">Choose Amount</option>
+                      <option value="Up to $5,000">Up to $5,000</option>
+                      <option value="Up to $5,000 to $10,000">Up to $5,000 to $10,000</option>
+                      <option value="Up to $10,000 to $20,000">Up to $10,000 to $20,000</option>
+                      <option value="p to $20,000 to $50,000">Up to $20,000 to $50,000</option>
+                      <option value="Can't disclose">Can't disclose</option>
+                    </select>
+  
+                    <div *ngIf="submitted &&  f['budget'].errors" class=" text-danger mt-2">
+                      <div *ngIf=" f['budget']['errors']['required']">Choose the option</div>
+                    </div>
+                  </div>
+                
+                </div>
+                <div class="col-md-12">
+                  <div class="attach-files text-center">
+                    <input type="file" class="form-control" formControlName="file" id="attach_files" (change)="selectfile($event)">
+                    <label for="attach_files"><i class="fas fa-paperclip"></i> Attach any file you feel would be
+                      useful* {{filename}} </label>
+                      <div *ngIf="submitted &&  f['file'].errors" class="text-danger mt-2">
+                        <div *ngIf=" f['file']['errors']['required']">File is required</div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="form-check heading-label">
+                      <input class="form-check-input" type="checkbox" value="" formControlName="check" id="check">
+                      <label class="form-check-label" for="check">
+                        I accept the <a href="#">Privacy Policy</a> and <a href="#">Terms & Conditions</a>.
+                      </label>
+                      <div *ngIf="submitted &&  f['check'].errors" class="text-danger mb-3">
+                        <div *ngIf=" f['check']['errors']['required']">You must check the box to continue.</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 text-center">
+                  <button type="submit" class="btn btn-main" [disabled]="submitted">Send Message</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+  </section>
+
+ 
+</main>

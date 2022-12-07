@@ -1,0 +1,72 @@
+<main>
+    <!-- <section class="banner_wrapper first_section pt-5" *ngFor="let card of solutionData?.section1.cards">
+        <img src="{{card.url}}" class="img-fluid">
+    </section> -->
+
+    <section class=" first_section padding-100" style="display: none">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-5">
+                    <span
+                        class="before-line text-uppercase font-weight-600 text-p-gray">{{solutionData.section2.line}}</span>
+                    <h2 class="mt-2 my-md-4">{{solutionData?.section2.heading}}</h2>
+                    <p>{{solutionData?.section2.content}}</p>
+                </div>
+                <div class="col-md-7 why-choose-solution">
+                    <div class="row">
+                        <div class="col-4 text-center" *ngFor="let card of solutionData?.section2.cards">
+                            <img src="{{card.url}}" alt="clients" class="img-fluid mb-3">
+                            <h5 class="font-weight-500">{{card.text}}</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class=" position-relative padding-100" style="display: none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 mb-5 text-center">
+                    <h2 class="mb-4">{{solutionData?.section3.heading}}</h2>
+                    <p> <strong class="text-black">Vision Vivante</strong> {{solutionData?.section3.content1}}</p>
+                </div>
+
+                <div class="col-lg-6 col-sm-6 ">
+                    <h3 class="font-weight-600 mb-4">{{solutionData?.section4.heading}}</h3>
+                    <ul class="check-ul" *ngFor="let card of solutionData?.section4.panels">
+                        <li>{{card.text}}</li>
+                        <!-- <li>We use the latest ERP technologies to fulfill our customer's needs.</li>
+                        <li>At every operational phase, our dedicated team communicates collaboratively with the client
+                            till the project delivery and after the launch.
+                        </li>
+                        <li>We proudly delivered 500+ successful projects in different - different industries.
+                        </li> -->
+
+                    </ul>
+                </div>
+                <div class="col-lg-6 col-md-6" *ngFor="let card of solutionData?.section4.cards">
+                    <img src="{{card.url}}" alt="solution" class="img-fluid">
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="bg-light padding-100 first_section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="mb-4 h2">{{solutionData?.section7.heading}}</h3>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-3" *ngFor="let card of solutionData?.section7.cards">
+                    <a class="tab-sec" href="solution.php">
+                        <img src="{{card.url}}" id="1035" alt="Tutors &amp;#038; Online courses" class="mr-2" />
+                        {{card.text}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

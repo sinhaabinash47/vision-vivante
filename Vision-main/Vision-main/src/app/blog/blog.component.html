@@ -1,0 +1,115 @@
+<main>
+  <section class="blog-box position-relative pb-5 padding-100 first_section">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-lg-12 tab-list">
+          <mat-tab-group animationDuration="0ms">
+            <mat-tab> 
+                <ng-template mat-tab-label>
+                  <p class="mb-0 fw-normal">All</p>
+                </ng-template>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 p-3" *ngFor="let card of blogData.section1.all">
+                    <a href="javascript:void(0);" routerLink="/blog-details"><img src="{{card.url}}" class="img-fluid"></a>
+                    <div class="blog-content py-5 px-4" >
+                      <span class="text-uppercase font-weight-600 blog-date">{{card.date}}</span>
+                      <p class="text-muted">{{card.name}}</p>
+                      <a href="javascript:void(0);" routerLink="/blog-details" class="text-dark">
+                        <h4 class="font-weight-600 mb-3">{{card.heading}}</h4>
+                      </a>
+                      <p>{{card.text}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </mat-tab>
+            <mat-tab>
+              <ng-template mat-tab-label>
+                <p class="mb-0 fw-normal">Design</p>
+              </ng-template>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 p-3" *ngFor="let card of blogData?.section1.design">
+                    <a href="javascript:void(0);" routerLink="/blog-details"><img src="{{card.url}}" class="img-fluid"></a>
+                    <div class="blog-content py-5 px-4">
+                      <span class="text-uppercase font-weight-600 blog-date">{{card.date}}</span>
+                      <p class="text-muted">{{card.name}}</p>
+                      <a href="javascript:void(0);" routerLink="/blog-details" class="text-dark">
+                        <h4 class="font-weight-600 mb-3">{{card.heading}}</h4>
+                      </a>
+                      <p>{{card.text}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </mat-tab>
+
+            <mat-tab>
+              <ng-template mat-tab-label>
+                <p class="mb-0 fw-normal">Programming</p>
+              </ng-template>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 p-3" *ngFor="let card of blogData?.section1.programming">
+                    <a href="javascript:void(0);" routerLink="/blog-details"><img src="{{card.url}}" class="img-fluid"></a>
+                    <div class="blog-content py-5 px-4">
+                      <span class="text-uppercase font-weight-600 blog-date">{{card.date}}</span>
+                      <p class="text-muted">{{card.name}}</p>
+                      <a href="javascript:void(0);" routerLink="/blog-details" class="text-dark">
+                        <h4 class="font-weight-600 mb-3">{{card.heading}}</h4>
+                      </a>
+                      <p>{{card.text}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </mat-tab>
+
+            <mat-tab>
+              <ng-template mat-tab-label>
+                <p class="mb-0 fw-normal">Technology</p>
+              </ng-template>
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-4 col-md-6 p-3" *ngFor="let card of blogData?.section1.technology">
+                    <a href="javascript:void(0);" routerLink="/blog-details"><img src="{{card.url}}" class="img-fluid"></a>
+                    <div class="blog-content py-5 px-4">
+                      <span class="text-uppercase font-weight-600 blog-date">{{card.date}}</span>
+                      <p class="text-muted">{{card.name}}</p>
+                      <a href="javascript:void(0);" routerLink="/blog-details" class="text-dark">
+                        <h4 class="font-weight-600 mb-3">{{card.heading}}</h4>
+                      </a>
+                      <p>{{card.text}}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </mat-tab>
+
+
+            <mat-tab>
+              <ng-template mat-tab-label>
+                <p class="mb-0 fw-normal">Insights</p>
+              </ng-template>
+              <div class="row m-auto">
+                <div class="col-lg-4 col-md-6 p-3" *ngFor="let card of blogData?.section1.insights">
+                  <a href="javascript:void(0);" routerLink="/blog-details"><img src="{{card.url}}" class="img-fluid"></a>
+                  <div class="blog-content py-5 px-4">
+                    <span class="text-uppercase font-weight-600 blog-date">{{card.date}}</span>
+                    <p class="text-muted">{{card.name}}</p>
+                    <a href="javascript:void(0);" routerLink="/blog-details" class="text-dark">
+                      <h4 class="font-weight-600 mb-3">{{card.heading}}</h4>
+                    </a>
+                    <p>{{card.text}}</p>
+                  </div>
+                </div>
+              </div>
+            </mat-tab>
+          </mat-tab-group>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

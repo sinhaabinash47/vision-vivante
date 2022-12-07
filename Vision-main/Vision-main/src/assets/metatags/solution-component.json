@@ -1,0 +1,178 @@
+{
+  "section1": {
+    "cards": [
+      { "url": "assets/images/solution-banner.jpg" }
+    ]
+  },
+  "section2": {
+    "line": "WHY CHOOSE US",
+    "heading": "We understand your business like none other does",
+    "content": "This was more of a pleasure project than a challenge. We’re all too familiar with the Wandering Feast, and frequent it every Thursday to sample the delicious food they serve up. So when they approached us looking for a for a new website, we couldn’t wait to tuck in!",
+    "cards": [
+      { "url": "assets/images/300-clients.png", "text": "800+ Clients" },
+      { "url": "assets/images/500-projects.png", "text": "500+ Projects" },
+      { "url": "assets/images/65-experts.png", "text": "65+ Experts" },
+      { "url": "assets/images/24x7-support.png", "text": "24/7 Support" },
+      { "url": "assets/images/deep-expert.png", "text": "Deep tech Expertise" },
+      { "url": "assets/images/easy-approach.png", "text": "Easy Approach" }
+    ]
+  },
+  "section3": {
+    "heading" :"We Provide Best Solution" ,
+    "content1": "brings the most appropriate web and app development software solution for your industry. We are passionate about delivering the best solutions for small, medium, and big enterprises (Including B to B and B to C). Take leverage of our 10+ years of expertise in creating a wide range of custom software development solutions in various niches. We are a full-stack iOS, Android, web design & development, quality assurance, and project management company. Our agile core team members produce a fully-fledged, stable, and scalable product according to goals and objectives.",
+    "content2": "Uber-like App Solution",
+    "cards": [
+      {
+        "url": "assets/images/solution.jpg"
+      }
+    ],
+    "heading": "Popular online cab booking brands",
+    "image": [
+      { "link": "https://www.uber.com", "text": "Uber" },
+      { "link": "https://www.lyft.com/", "text": "lyft" },
+      { "link": "https://www.olacabs.com", "text": "Ola Cabs" },
+      {
+        "link": "https://www.grab.com/th/en/transport/taxi/",
+        "text": "Grab Taxi"
+      },
+      { "link": "https://www.didiglobal.com/", "text": "Didi Dache" },
+      { "link": "https://gett.com/", "text": "Gett" },
+      { "link": "https://www.lecab.fr/", "text": "LeCab" }
+    ]
+  },
+  "section4": {
+    "heading": "Nothing is complicated for us",
+    "cards": [{"url": "assets/images/solution.jpg" }],
+    "panels": [
+      { "text": "No matter which industry you belong to, our methods and approach to better understand client needs and turn your business ideas into reality" },
+      { "text": "We use the latest ERP technologies to fulfill our customer's needs." },
+      { "text": "At every operational phase, our dedicated team communicates collaboratively with the client till the project delivery and after the launch." },
+      { "text": "We proudly delivered 500+ successful projects in different - different industries." }
+    ]
+  },
+  "section5": {
+    "heading": "Launch your brand with Uber like app solution",
+    "cards": [
+      {
+        "text": "Take your taxi business online with Our Taxi Dispatch Solution."
+      },
+      { "text": "Advanced features like Route Optimization & Geo Tracking" },
+      { "text": "Real-time tracking like Uber" },
+      { "text": "Get complete support to manage your Taxi Business" },
+      {
+        "text": "Easy configuration steps to get your own branded taxi dispatch system"
+      },
+      { "text": "Completely customizable Uber clone" },
+      {
+        "text": "Set Dynamic Pricing based on route traffic, available drivers, estimated time and distance"
+      }
+    ],
+    "image": [{ "url": "assets/images/admin-panel.png" }]
+  },
+  "section6": {
+    "heading": "",
+    "cards": [
+      {
+        "url": "assets/images/tuktuk-portfolio.png",
+        "img": "assets/images/client.png",
+        "name": "Mark Mclaughlin3",
+        "ceo": " CEO@Coras.io",
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."
+      },
+      {
+        "url": "assets/images/tuktuk-portfolio.png",
+        "img": "assets/images/client.png",
+        "name": "Mark Mclaughlin2",
+        "ceo": " CEO@Coras.io",
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."
+      },
+      {
+        "url": "assets/images/tuktuk-portfolio.png",
+        "img": "assets/images/member.jpg",
+        "name": "Mark Mclaughlin",
+        "ceo": " CEO@Coras.io",
+        "text": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters."
+      }
+    ],
+    "image": [{ "url": "assets/images/admin-panel.png" }]
+  },
+  "section7": {
+    "heading": "Industries We're Proud To Have Served",
+    "cards": [
+      {
+        "url": "assets/images/online-course.png",
+        "text": " Tutors & Online courses"
+      },
+      { "url": "assets/images/delivery.png", "text": "Food Delivery" },
+      { "url": "assets/images/b2c.png", "text": "E-Commerce B2C Websites" },
+      {
+        "url": "assets/images/e-commerce-marketplace.png",
+        "text": "E-Commerce Marketplace"
+      },
+      { "url": "assets/images/travel.png", "text": "Travel" },
+      { "url": "assets/images/job.png", "text": "Jobs" },
+      { "url": "assets/images/healthcare.png", "text": "Healthcare" },
+      { "url": "assets/images/blog.png", "text": "Blogs" },
+      { "url": "assets/images/booking.png", "text": "Booking" },
+      { "url": "assets/images/odering.png", "text": "Food Ordering" },
+      {
+        "url": "assets/images/multilavel-marketing.png",
+        "text": "Multilevel marketing"
+      },
+      { "url": "assets/images/pos.png", "text": "POS ( Point of Sale)" },
+      {
+        "url": "assets/images/crm.png",
+        "text": "CRM ( Customer Relationship Management)"
+      },
+      {
+        "url": "assets/images/saas.png",
+        "text": "SAAS ( Software as a Services )"
+      },
+      { "url": "assets/images/beauty.png", "text": "Beauty Services" },
+      {
+        "url": "assets/images/social-networking.png",
+        "text": "Social Networking"
+      },
+      { "url": "assets/images/money-tranfer.png", "text": "Money Transfer" },
+      { "url": "assets/images/auction.png", "text": "Auctions" },
+      {
+        "url": "assets/images/laundry-services.png",
+        "text": "Laundry Services"
+      },
+      { "url": "assets/images/insurance.png", "text": "Insurance" },
+      {
+        "url": "assets/images/pets-and-animals.png",
+        "text": "Pets and Animals"
+      },
+      {
+        "url": "assets/images/pickup-delivery.png",
+        "text": "Pickup And Delivery"
+      },
+      {
+        "url": "assets/images/banking-and-finance.png",
+        "text": "Banking and Finance"
+      },
+      { "url": "assets/images/informative.png", "text": "Informative" },
+      { "url": "assets/images/medicine.png", "text": "Medicine Delivery" },
+      { "url": "assets/images/oil-and-gas.png", "text": "Oil & gas" },
+      { "url": "assets/images/charity.png", "text": "Charity" },
+      { "url": "assets/images/multisite.png", "text": "Multi-site" },
+      { "url": "assets/images/taxi-dispatched.png", "text": "Dispatch" },
+      {
+        "url": "assets/images/sports-tourism.png",
+        "text": "Leisure, Sports and Tourism"
+      },
+      {
+        "url": "assets/images/babysitter-service.png",
+        "text": " Babysitters Services"
+      },
+      {
+        "url": "assets/images/personal-trainer.png",
+        "text": "Personal Trainer"
+      },
+      { "url": "assets/images/trading.png", "text": "Trading" },
+      { "url": "assets/images/car-rental.png", "text": "Car Rental" }
+    ],
+    "image": [{ "url": "assets/images/admin-panel.png" }]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "section1": {
+    "heading": "UI/UX Designing",
+    "content": "UI and UX are essential elements of any website, Mobile application, and software development. It helps get more user engagement, increase potential leads, and enhance your brand's credibility and trustworthiness.",
+    "cards": [
+      { "url": "assets/images/photoshop-icon.png", "text": "Photoshop" },
+      { "url": "assets/images/illustrator-icon.png", "text": "Illustrator" },
+      { "url": "assets/images/html.png", "text": "HTML" },
+      { "url": "assets/images/css3.png", "text": "CSS" },
+      { "url": "assets/images/javascript.png", "text": "Java script" }
+    ]
+  },
+  "section2": {
+    "heading": "Designing process",
+    "cards": [
+      { "url": "assets/images/project-definition.png", "text": "Project Definition" },
+      { "url": "assets/images/requirement-ana.png", "text": "Research and Analysis" },
+      { "url": "assets/images/sketch.png", "text": "Sketching" },
+      { "url": "assets/images/mockup.png", "text": "Mockups & Prototyping" },
+      { "url": "assets/images/process-5.png", "text": "Delivery" }
+    ]
+  },
+  "section3": {
+    "heading": "Few of our favorite projects",
+    "cards": [
+      { "url": "assets/images/globava-popup.jpg", "previewUrl": "assets/images/globava.jpg", "text": "Globava" },
+      { "url": "assets/images/hp-modelismo-popup.jpg", "previewUrl": "assets/images/hp-modelismo.jpg", "text": "HP MODELISMO" },
+      { "url": "assets/images/protectionplus-popup.jpg", "previewUrl": "assets/images/protectionplus.jpg", "text": "Protection Plus" }
+    ],
+    "btn": [{ "routerlink": "/client-works", "text": "View Full Portfolio" }]
+  },
+  "section4": {
+    "heading": "Have a project in mind?",
+    "content": "It’s a pleasure to have you on our website. Let us know if there’s an opportunity for us to do something together.",
+    "cards": [{ "routerlink": "/contact", "text": "let's talk" }]
+  }
+}

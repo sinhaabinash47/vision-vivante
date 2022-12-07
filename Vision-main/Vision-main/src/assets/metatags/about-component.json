@@ -1,0 +1,127 @@
+{
+  "section1": {
+    "heading": "We Execute Ideas",
+    "content": "We make things run as smooth as nature."
+  },
+  "section2": {
+    "shadow": "Vision Vivante",
+    "heading": "Who We Are",
+    "content": "Established in 2016, Vision Vivante is delivering a comprehensive range of Website, Mobile Apps, and Software Development solutions and Digital Marketing services globally. We are tech-oriented, with apt ideas, seasoned talent, and the experience to deliver small to complex and high-end applications perfectly. Most of our clients are from countries like the USA, UK, Europe, Australia, Spain, Canada, New Zealand, Germany, Poland, Netherlands, and the Middle East countries like UAE, Qatar, etc.",
+    "cards": [
+      {
+        "url": "../../assets/images/beginning.jpg",
+        "surl": "../../assets/images/start.jpg"
+      }
+    ]
+  },
+  "section3": {
+    "heading": "",
+    "content": "Both Jatin and Narendra are B. Tech. degree holder in Information Technology and have more than 10+ years of experience in Information technology. Vision Vivante has come a long way from its beginnings in a small 10*10 feet room with 3 members to 35 members.",
+    "cards": [
+      {
+        "url": "../../assets/images/founders.png",
+        "narendra": "leading the Sales and BA Team, is the “Problem Solver”. He always makes good co-operation and communication between clients and all departments. A little bit in Sales, Project Management, Operation, HR, and Development, he has played a vital role and ensured Vision Vivante succeeds with +100% growth year-over-year.",
+        "jatin": " leading the Production Team, is a Passionate Programmer and has handled hundreds of projects for small, medium, and large enterprises using almost all possible technology stacks. His leadership inspires everyone. He is the center of all the project development and deliveries. He brainstorms new ideas and implements them in the right manner."
+      }
+    ]
+  },
+  "section4": {
+    "cards": [{ "link1": "View our Service", "link2": "Our Approch" }]
+  },
+  "section5": {
+    "heading": "5 years on the market",
+    "content": "From the beginning, we consistently retained our client's trust and made new success stories every day. We are a highly principled company.",
+    "cards": [
+      {
+        "url": "/assets/images/clients.png",
+        "market": "2000+ PROJECTS",
+        "text": "WorldWide"
+      },
+      {
+        "url": "/assets/images/projects.png",
+        "market": "800+ CLIENTS",
+        "text": "Delivered to Clients"
+      },
+      {
+        "url": "/assets/images/experts.png",
+        "market": "40+ Programming",
+        "text": "Technologies"
+      }
+  
+    ]
+  },
+  "section6": {
+    "heading": "Our Team Members",
+    "content": "We are nothing without the effort and dedication of our team and we are very proud of each and every team member associated with us (in the present and past). A fun fact, there are no separate cabins or places for CEOs, PMs, or seniors.",
+    "cards": [
+      {
+        "url": "assets/images/suraj.jpg",
+        "name": "Suraj Bansal",
+        "text": "Team Leader"
+      },
+      {
+        "url": "assets/images/pankaj.jpg",
+        "name": "Pankaj Dheer",
+        "text": "Backend Expert"
+      },
+      {
+        "url": "assets/images/kanchan.jpg",
+        "name": "Kanchan Kumari",
+        "text": "JS Framework Expert"
+      },
+      {
+        "url": "assets/images/manprit.jpg",
+        "name": "Manpreet Singh",
+        "text": "UI/UX Professional"
+      },
+      {
+        "url": "assets/images/geeta.jpg",
+        "name": "Geeta Joshi",
+        "text": "Frontend Developer"
+      },
+      { "url": "assets/images/vikas.jpg",
+        "name": "Vikas Kumar",
+        "text": "QA" },
+      {
+        "url": "assets/images/mohit.jpg",
+        "name": "Mohit Rana",
+        "text": "Sr. BDE"
+      },
+      {
+        "url": "assets/images/kuldeep.jpg",
+        "name": "Kuldeep Yadav",
+        "text": "BDE"
+      },
+      {
+        "url": "assets/images/yogesh.png",
+        "name": "Yogesh",
+        "text": "CMS Expert"
+      },
+      {
+        "url": "assets/images/sukhdev.jpg",
+        "name": "Sukhdev",
+        "text": "PHP Framework Expert"
+      },
+      {
+        "url": "assets/images/deeraj.jpg",
+        "name": "Dheeraj",
+        "text": "SEO & SMO Expert"
+      },
+      {
+        "url": "assets/images/monika.jpg",
+        "name": "Neeraj Kumari",
+        "text": "HR Manager"
+      }
+    ]
+  },
+  "section7": {
+    "heading": "Our Work Culture",
+    "content": "Our workplace is very neutral (gender, religion, caste, creed, and color) and gives enough space for everyone to grow in their area. We enjoy every moment and are motivated and enthusiastic people.",
+    "cards": [
+      {
+        "url": "assets/images/gallery-img.jpg",
+        "link": "View all Vacancies"
+      }
+    ]
+  }
+}

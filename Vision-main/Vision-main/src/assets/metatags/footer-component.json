@@ -1,0 +1,43 @@
+{
+  "section": {
+    "heading": "assets/images/logo-full-white.svg",
+    "content": "",
+    "cards": [
+      {
+        "icons": "fab fa-facebook",
+        "social": "https://www.facebook.com/visionvivante/",
+        "routerLink": "/",
+        "text": "Home"
+
+      },
+      {
+        "icons": "fa-brands fa-twitter",
+        "social": "https://twitter.com/visionvivante",
+        "routerLink": "/about",
+        "text": "About Us"
+      },
+      {
+        "routerLink": "/solutions",
+        "text": "Solutions"
+      },
+      {
+        "icons": "fa-brands fa-instagram",
+        "social": "https://www.instagram.com/visionvivante/",
+        "routerLink": "/services",
+        "text": "Services"
+      },
+      {
+        "icons": "fa-brands fa-linkedin-in",
+        "social": "https://in.linkedin.com/company/vision-vivante",
+        "routerLink": "/client-works/all",
+        "text": "Portfolio"
+      },
+
+      {
+        "routerLink": "/contact",
+        "text": "Contact Us"
+      }
+    ],
+    "image": [{ "url": "Request Quote" }]
+  }
+}

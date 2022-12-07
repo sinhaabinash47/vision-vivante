@@ -1,0 +1,50 @@
+{
+  "section1": {
+    "heading": "Backend Development",
+    "content": "Backend developer plays a vital role in developing web and app integration, databases, and other backend processes to ensure that your website or app runs smoothly.",
+    "cards": [
+      { "url": "assets/images/php.png", "text": "Php" },
+      { "url": "assets/images/node-js.png", "text": "Node Js" },
+      { "url": "assets/images/laravel.png", "text": "Laravel" },
+      { "url": "assets/images/java.png", "text": "Java" },
+      { "url": "assets/images/wordpress.png", "text": "Wordpress" },
+      { "url": "assets/images/magento.png", "text": "Magento 2" },
+      { "url": "assets/images/joomla.png", "text": "Joomla" },
+      { "url": "assets/images/opencart.png", "text": "OpenCart" },
+      { "url": "assets/images/symfony.png", "text": "Symfony" },
+      { "url": "assets/images/yii2.png", "text": "Yii2" },
+      { "url": "assets/images/codeigniter.png", "text": "Codeigniter" },
+      { "url": "assets/images/prestashop.png", "text": "Prestashop" },
+      { "url": "assets/images/shopify.png", "text": "Shopify" },
+      { "url": "assets/images/bigcommerce.png", "text": "Bigcommerce" }
+    ]
+  },
+  "section2": {
+    "heading": "Development process",
+    "cards": [
+      { "url": "assets/images/back-design.png", "text": "Back-end Designing" },
+      { "url": "assets/images/php-logo.png", "text": "Frameworks" },
+      { "url": "assets/images/code1.png", "text": "Software Development" },
+      { "url": "assets/images/sql-logo.png", "text": "Databases Setup" },
+      {
+        "url": "assets/images/process-5.png",
+        "text": "Deployment and Integration"
+      }
+    ]
+  },
+
+  "section3": {
+    "heading": "Few of our favorite projects",
+    "cards": [
+      { "url": "assets/images/airbud-popup.jpg", "previewUrl": "assets/images/airbud.jpg", "text": "Airbuds" },
+      { "url": "assets/images/globava-popup.jpg", "previewUrl": "assets/images/globava.jpg", "text": "Globava" },
+      { "url": "assets/images/bookyourcook-popup.jpg", "previewUrl": "assets/images/bookyourcook.jpg", "text": "Bookyour cook" }
+    ],
+    "button": [{ "routerlink": "/client-works", "text": "View Full Portfolio" }]
+  },
+  "section4": {
+    "heading": "Have a project in mind?",
+    "content": "It’s a pleasure to have you on our website. Let us know if there’s an opportunity for us to do something together.",
+    "cards": [{ "routerlink": "/contact", "text": "let's talk" }]
+  }
+}

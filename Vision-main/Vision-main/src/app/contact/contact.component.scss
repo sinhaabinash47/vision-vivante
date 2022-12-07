@@ -1,0 +1,149 @@
+$gradient-main: linear-gradient(180deg, #271887, #02bfe1);
+$color-black: #000;
+$color-light-blue: #02bfe1;
+$extra-large-desktop: 1200px;
+$large-desktop: 1200px;
+$medium-desktop: 991px;
+$tablet: 767px;
+$mobile: 576px;
+$small-mobile: 576px;
+$font-family-bold: 'Averta-Bold';
+$font-family-regular: 'Averta-Regular';
+
+a {
+  text-decoration: none;
+}
+
+.color-light-blue {
+  color: $color-light-blue;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.form-content{
+  .contact-form {
+    padding: 40px 30px;
+    @media (max-width:$mobile){
+      padding: 0;
+    }
+   }
+  .contact-inquries {
+    background-image: linear-gradient(135deg, #271887, #02bfe1);
+    padding: 40px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 40px;
+    @media (max-width:$medium-desktop) {
+      margin-left: 0;
+      padding: 25px;
+    }
+  }
+  .v_form {
+    .form-group {
+      margin-bottom: 3rem;
+    
+      @media (max-width:$tablet) {
+        margin-bottom: 1.5rem;
+      }
+      .form-control {
+        font-size: 17px;
+        padding: 10px 0;
+        line-height: normal;
+        border-radius: 0;
+        border: 0;
+        border-bottom: 1px solid #ddd;
+        @media (max-width:$tablet) {
+          font-size: 16px;
+        }
+      }
+      .phone-number{
+          padding-left: 45px;
+
+      }
+
+      &>label {
+        bottom: 35px;
+        left: 0px;
+        position: relative;
+        font-size: 17px;
+        transition: 0.2s;
+        pointer-events: none;
+        color: #333;
+        @media (max-width:$tablet) {
+          font-size: 16px;
+        }
+      }
+
+      .form-control:focus {
+        box-shadow: 0 0 transparent;
+        border-image: $gradient-main 30;
+      }
+
+      .form-control:focus~label {
+        bottom: 65px;
+      }
+
+      .ng-touched~label {
+        bottom: 65px;
+      }
+
+      .required-text {
+        position: relative;
+        top: -21px;
+      }
+      &.phone-group  ::ng-deep {
+        .required-text {
+        top: 0;
+      }
+      .iti {
+        width: 100%;
+      }
+     }
+    
+     
+    }
+  }
+}
+
+
+.prensence-section{
+  .office-address{
+    padding: 30px;
+    box-shadow: rgb(0 0 0 / 25%) 0px 25px 50px -12px;
+    border-radius: 8px;
+    transition: .3s all;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-transition: .3s all;
+    -moz-transition: .3s all;
+    -ms-transition: .3s all;
+    -o-transition: .3s all;
+    i{
+      background: $gradient-main;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-size: 40px;
+    }
+   p{
+    color: #464545
+   }
+   a{ 
+    color: #464545
+   }
+  }
+
+}
+
+.form-group:ng-deep{
+  .iti{
+    display: block!important;
+  }
+}

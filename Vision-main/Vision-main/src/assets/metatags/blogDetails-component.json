@@ -1,0 +1,61 @@
+{
+  "section1": {
+    "heading": "Real Estate App Development: How We Can Digitalize the Industry",
+    "content": "SHARE",
+    "cards": [
+      {
+        "url": "assets/images/member.jpg",
+        "name": "By Demi Rose",
+        "date": "30 SEP 2019"
+      }
+    ],
+    "social": [
+      { "icons": "fab fa-facebook" },
+      { "icons": "fa-brands fa-twitter" },
+      { "icons": "fa-brands fa-linkedin-in" }
+    ]
+  },
+  "section2": {
+    "cards": [
+      { "url": "", "text": "App Development" },
+      { "url": "", "text": "Mobile App Development" },
+      { "url": "", "text": "iOS" }
+    ],
+    "social": [
+      { "icons": "fab fa-facebook" },
+      { "icons": "fa-brands fa-twitter" },
+      { "icons": "fa-brands fa-linkedin-in" }
+    ]
+  },
+  "section3": {
+    "cards": [
+      {
+        "content": "For the last two years, investors have poured billions into property companies that are using technology. According to the Real Estate Technology Sector Summary 2018 Year-End Review by GCA Altium, overall growth equity funding in the real estate sector was up 84 percent year-over-year in 2018. This jump in investment has led to radical changes in the US real estate industry. This makes real estate one of such thriving industries as e-commerce and transportation."
+      },
+      {
+        "content": "According to the 2019 edition of Inman will seek clients as opposed to homebuyers seeking agents. The number of real estate agents will shrink, and only the most competitive will remain."
+      },
+      {
+        "content": "The ubiquitous Uberization backs up this shift. Uberizing implies hiding the intermediary – that is, the party inestate platform. It facilitates communication, but its presence is imperceptible."
+      }
+    ],
+    "heading": "Read also: 4 Essential Things Your Real Estate Business Needs to Succeed",
+    "cardimage": [
+      { "url": "assets/images/blog4.jpg" },
+      { "url": "assets/images/blog5.jpg" }
+    ]
+  },
+  "section4": {
+    "heading": "Matching customers and agents",
+    "cards": [
+      {
+        "content": "Before buyers and sellers are matched to each other, they have to be matched to real estate agents. This matching has to be done after an agent lists real property on multiple listing services. Agents with higher ratings have a competitive advantage in the real estate marketplace, as sellers can choose the best-rated agents.",
+        "content1": "Before buyers and sellers are matched to each other, they have to be matched to real estate agents. This matching has to be done after an agent lists real property on multiple listing services. Agents with higher ratings have a competitive advantage in the real estate marketplace, as sellers can choose the best-rated agents."
+      }
+    ]
+  },
+  "section5": {
+    "content": "Trust is one of the most important factors for establishing a good reputation for your service. Originally, marketplaces like eBay, Airbnb, and Etsy built trust via social validation in the form of reviews, recommendations, and ratings.",
+    "cards": [{ "url": "assets/images/mobile-development.png" }]
+  }
+}

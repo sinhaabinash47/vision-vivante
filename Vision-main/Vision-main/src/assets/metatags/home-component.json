@@ -1,0 +1,223 @@
+{
+  "section2": {
+    "heading": "What we can do for you?",
+    "content": "Take a step forward and let your business succeed. We’re a dedicated software development and digital marketing company  that combines experience from all over the world and helps you revolutionize market trends. Vision Vivante is a one-stop solution for all custom software development requirements using technologies ranging from Java, PHP, Node,.Net, ROR, and Perl to  HTML, CSS, JS, Angular, React, Vue, React Native and Flutter, making us very suitable for any software development requirement  saving you time and cost of moving from one vendor to another.  Our Services include developing Automation Applications, Websites, Mobile Apps, Desktop  Software, IoT Applications, and Marketing using SEO, PPC, and SMM, etc…",
+    "cards": [
+      {
+        "url": "assets/images/ui-design.png",
+        "text": "UI/UX Application Design"
+      },
+      {
+        "url": "assets/images/web-development.png",
+        "text": "Web Development"
+      },
+      {
+        "url": "assets/images/android-development.png",
+        "text": "Android Development"
+      },
+      {
+        "url": "assets/images/android-development.png",
+        "text": "iOS Development"
+      },
+      {
+        "url": "assets/images/quality-assurance.png",
+        "text": "Quality Assurance"
+      },
+      {
+        "url": "assets/images/project-management.png",
+        "text": "Digital Marketing"
+      }
+    ],
+    "image": [{ "url": "assets/images/services.png" }]
+  },
+  "section3": {
+    "heading": "Our Working Process",
+    "cards": [
+      {
+        "url": "assets/images/planning.png",
+        "text": "Planning",
+        "content": "In the earliest stage, by gathering all your ideas, expectations, and objectives, we come up with a proposal that includes a step-by-step executable task list and user stories further broken down into Deliverable Milestones. We have exposure to almost all Project Management tools like Jira, Asana, Trello, Mondey.com, Zoho, AirTable, etc… and Code Repositories like GitHub and BitBucket"
+      },
+      {
+        "url": "assets/images/design.png",
+        "text": "Design",
+        "content": "We use Figma, Adobe XD, PhotoShop, and Adobe AI extensively to present the User Interface in high (or low) fidelity designs to give an accurate idea to the clients of how the website, software, or application interface will exactly look after development. This covers branding expectations, user flow, and functional prototyping decreasing iterations during the programming phase."
+      },
+      {
+        "url": "assets/images/development.png",
+        "text": "Development",
+        "content": "We follow standard development practices and keep up to date with technologies. We use Waterfall as well as Agile and sometimes even Hybrid project development methodologies to achieve on-time and accurate project delivery."
+      },
+      {
+        "url": "assets/images/process-testing.png",
+        "text": "Testing",
+        "content": "Our skilled Testers do a detailed analysis to check the functionality and behavior of your software, application, or website. This process is intended to check and fix potential bugs, and the bug-free application is set to be delivered."
+      },
+      {
+        "url": "assets/images/support.png",
+        "text": "Support",
+        "content": "After a successful delivery, we always pay attention to your website performance and maintenance. We provide free support to clever all the work delivered for a fixed duration of time agreed in the planning phase as per the length and demand of the client. Further, we provide paid support on demand and we provide high priority to existing clients"
+      }
+    ]
+  },
+  "section4": {
+    "heading": "Top Rated Company",
+    "cards": [
+      {
+        "url": "assets/images/upwork.png",
+        "cardurl": "assets/images/upwork-m.png",
+        "content": "Upwork Global Inc., formerly Elance-oDesk, is an American Nasdaq (UPWK) listed, largest freelance marketplace platform for IT Services in the world. Upwork host more than 3.5 billion service providers and we are among the top 3% of service providers with the",
+        "ratetext": "Top Rated Plus Badge.",
+        "ratelink": "https://support.upwork.com/hc/en-us/articles/360049702614-Upwork-s-Talent-Badges#:~:text=To%20earn%20a%20Top%20Rated,3%25%20of%20performers%20on%20Upwork.",
+        "view": "https://www.upwork.com/o/companies/~01324c8e275f3c4e13/"
+      },
+      {
+        "url": "assets/images/freelancer.png",
+        "link": "Freelancer.com",
+        "texturl":"Preferred Freelancer",
+        "fethchurl":"https://www.freelancer.com/",
+        "cardurl": "assets/images/free.png",
+        "content": "is an Australian Stock Listed (ASX: FLN) remote freelance marketplace portal, which allows small, medium clients and large enterprices to list their projects. It has more than 59.9 million service providers and we are in top 1% providers with. ",
+        "view": "https://www.freelancer.com/u/visionvivante"
+      },
+      {
+        "url": "assets/images/peopleperhour.png",
+        "link": "PeoplePerHour.com",
+        "fethchurl":"https://www.peopleperhour.com/",
+        "cardurl": "assets/images/peopleperhour1.png",
+        "content": " is a UK-based company whose function is as an online platform giving businesses access to freelance workers. It connected 1.2 million clients to freelancers and we are among top 10% providers ",
+        "view": "https://www.peopleperhour.com/freelancer/technology-programming/vision-vivante-we-are-web-mobile-apps-and-digital-zzqxqxj"
+      }
+    ]
+  },
+  "section5": {
+    "heading": "Our Portifolio and Projects",
+    "content": "Productivity is never an accident. It is always the result of a commitment to excellence, intelligent planning, and focused effort. (~ Paul J. Meyer)",
+    "cards": [
+      { "url": "assets/images/hp-modelismo-popup.jpg", "previewUrl": "assets/images/hp-modelismo.jpg", "portfolio": "HP MODELISMO" },
+      { "url": "assets/images/protectionplus-popup.jpg", "previewUrl": "assets/images/protectionplus.jpg", "portfolio": "ProtectionPlus" },
+      { "url": "assets/images/globava-popup.png", "previewUrl": "assets/images/globava.jpg", "portfolio": "Globava" }
+    ],
+    "customecard": [
+      {
+        "challenge": "No challenge too big. No detail too small.",
+        "button": "View All Projects"
+      }
+    ]
+  },
+  "section6": {
+    "heading": "Your dedicated technology partner",
+    "content": "Further to our services and the results we achieve, we pride ourselves on our communication approach to project deliverables and efforts to help our clients understand our value. Our unrivaled creative and technical expertise and passion for delivering the best help us stay in the lead.",
+    "campaign": "We ensure that every project campaign entrusted to us is managed with integrity and loyalty, with every step measured and communicated to the best of our abilities.",
+    "cards": [
+      { "url": "assets/images/approach.png", "text": "Easy Approach" },
+      { "url": "assets/images/reporting.png", "text": "Regular Reporting" },
+      { "url": "assets/images/expertise.png", "text": "Deep Tech Expertise" },
+      {
+        "url": "assets/images/time-tracking.png",
+        "text": "Honesty and Transparency"
+      },
+      {
+        "url": "assets/images/commitments.png",
+        "text": "Personal Commitment"
+      },
+      { "url": "assets/images/commitments.png", "text": "Scalability" }
+    ],
+    "image": [
+      {
+        "url": "assets/images/services.png",
+        "link": "View all Services"
+      }
+    ]
+  },
+  "section7": {
+    "cards": [
+      {
+        "url": "assets/images/testimonial-1.jpg",
+        "userimg": "assets/images/avtar-1.png",
+        "name": "William Omara  ",
+        "text": "What our client say!",
+        "cardhead": "I hired VIsion Vivante Pvt Ltd for creating a SaaS application Website and Mobile Apps, for creating my dream project for Safety Professionals. So far the team have been able to achieve the expectations and we will continue the project. This product will enable the Safety Professional to have their dashboard and manage all the companies easily from anywhere anytime. At same time all concerned stakeholders can see the information."
+      },
+      {
+        "url": "assets/images/testimonial2.jpg",
+        "userimg": "assets/images/avtar-2.png",
+        "name": "Jonathon B.",
+        "text": "What our client say!",
+        "cardhead": "I have worked with Jatin and his team for over 3 months now. They have supported all our technical needs in Ionic and. Laravel. There is nothing they cannot do. Their team has worked beside my developers to fix bugs, build new features, and update our app in the app stores. We consider them a part of our team. I am the ceo and I highly recommend their services! [23 June, 2021] I really have liked working with Jatin and his team very much. They have been willing to investigate every issue we find and have delivered good work. I am continuing to use them on a regular basis."
+      },
+      {
+        "url": "assets/images/testimonial3.jpg",
+        "userimg": "assets/images/avtar-4.png",
+        "name": "Craig Benporath",
+        "text": "What our client say!",
+        "cardhead": "Working with Narendra from Vision Vivante has been a pleasure. His responses have been quick and knowledgeable. Vision Vivante are professional and their work is of a high standard. I initially contacted them to upgrade my Magento website but soon discovered that they are a complete one-stop solution for all services including designing, development, and marketing which takes away the hassle of me needing to communicate with other vendors. He has helped to take our website to another level which are are so excited about. Great Job Vision Vivante - highly recommended!"
+      },
+      {
+        "url": "assets/images/testimonial4.jpg",
+        "userimg": "assets/images/avtar-3.png",
+        "name": "Keon Reid",
+        "text": "What our client say!",
+        "cardhead": "I have known and worked with Narendra and the Vision Vivante team over the span of 5+ years. One word truly describes the team -- execution. My custom web development projects were met with excellent communication, high level of professionalism and great competence on the technical side. The team works on aggressive timelines and will deliver on the project scope. One key attribute that I like is the personable nature and the ability to solve problems. I highly endorse the Vision Vivante team for their competitive pricing, technical expertise and executing client vision."
+      },
+      {
+        "url": "assets/images/testimonial5.jpg",
+        "userimg": "assets/images/avtar-5.png",
+        "name": "Natalie B.",
+        "text": "What our client say!",
+        "cardhead": "I have been working with Jatin for the past 2 years, and am very satisfied with the wonderful job to create my website. I highly recommend to anyone looking for a specialised and bespoke website built. Thank you for all your work Jatin. I will continue to use Jatins services.\""
+      }
+    ],
+    "image": [{ "url": "assets/images/services.png" }]
+  },
+  "section8": {
+    "heading": "Explore our thinking",
+    "content": "I have known and worked with Narendra and the Vision Vivante team over the span of 5+ years. One word truly describes the team --  execution. My custom web development projects were met with excellent communication, high level of professionalism and great competence on the technical side. The team works on aggressive timelines and will deliver on the project scope. One key attribute that I like is the personable nature and the ability to solve problems. I highly endorse the Vision Vivante team for their competitive pricing, technical expertise and executing client vision.",
+    "cards": [
+      {
+        "url": "assets/images/blog1.jpg",
+        "date": "30 SEP, 2019",
+        "name": "By Deni Rosee",
+        "text": "Real Estate App Development: How We Can Digitalize the Industry"
+      },
+      {
+        "url": "assets/images/blog2.jpg",
+        "date": "29 SEP, 2019",
+        "name": "By Anand Kumare",
+        "text": "How to Use Websockets in Golang : Best Tools and Step-by-Step Guide"
+      },
+      {
+        "url": "assets/images/blog3.jpg",
+        "date": "28 SEP, 2019",
+        "name": "By Vivek Sharma",
+        "text": "How Product/Market Fit Canvas Can Help You in App Development"
+      }
+    ],
+    "image": [{ "url": "assets/images/services.png" }]
+  },
+  "section9": {
+    "heading": "Get to know us!",
+    "content": "It’s a pleasure to have you on our website. Let us know if there’s an opportunity for us to do something together.",
+    "cards": [
+      {
+        "url": "assets/images/blog1.jpg",
+        "date": "30 SEP, 2019",
+        "name": "By Deni Rosee",
+        "text": "Real Estate App Development: How We Can Digitalize the Industry"
+      },
+      {
+        "url": "assets/images/blog2.jpg",
+        "date": "29 SEP, 2019",
+        "name": "By Anand Kumare",
+        "text": "How to Use Websockets in Golang : Best Tools and Step-by-Step Guide"
+      },
+      {
+        "url": "assets/images/blog3.jpg",
+        "date": "28 SEP, 2019",
+        "name": "By Vivek Sharma",
+        "text": "How Product/Market Fit Canvas Can Help You in App Development"
+      }
+    ],
+    "image": [{ "url": "Request Quote" }]
+  }
+}

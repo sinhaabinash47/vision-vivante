@@ -1,0 +1,72 @@
+$gradient-main: -webkit-linear-gradient(180deg, #271887, #02bfe1);
+$extra-large-desktop: 1200px;
+$large-desktop: 1200px;
+$medium-desktop: 991px;
+$tablet: 767px;
+$mobile: 576px;
+$small-mobile: 576px;
+$gradient-color-2:linear-gradient(to right , #271887 30% , #02bfe1);
+.banner_wrapper{
+    position: relative;
+    .inner-content{
+        position: relative;
+        z-index:2;
+        h1{
+            span{
+                background: $gradient-main;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}
+.technology-section{
+    img{
+        max-height: 70px;
+    }
+}
+
+.ecab-result{
+    .border-right{
+        border-right: 1px solid #dee2e6;
+    }  
+}
+
+.testimonial{
+    padding: 5rem 0;
+    p{
+        width: 84%;
+        position: relative;
+        margin: 0px auto;
+        padding: 40px 0;
+        text-align: center;
+            &::before{
+            content: "";
+            background: url('../../assets/images/quote.png') no-repeat center center;
+            width: 100px;
+            height: 100px;
+            left: -40px;
+            top: 0px;
+            background-size: contain;
+            z-index: 6;
+            position: absolute;
+            transform: rotate(180deg);
+        }
+        &::after{
+            content: "";
+            background: url('../../assets/images/quote.png') no-repeat center center;
+            width: 100px;
+            height: 100px;
+            right: -40px;
+            bottom: 0px;
+            background-size: contain;
+            z-index: 6;
+            position: absolute;
+        }
+        
+    }
+}
+.material-icon{
+    vertical-align: middle;
+}
+

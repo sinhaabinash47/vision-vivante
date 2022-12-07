@@ -1,0 +1,120 @@
+<main>
+  <section class="banner_solution paddingY-10 first_section">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-10 text-center">
+                  <h1 class="banner-text">{{androidData.section1.heading}}</h1>
+                  <p class="h5">{{androidData?.section1.content}}</p>
+
+                  <div class="technology_used mt-5">
+                      <div class="tech_data d-flex gap-3">
+                          <div class="data d-flex flex-column gap-4 align-items-center" *ngFor="let card of androidData?.section1.cards">
+                              <img src="{{card.url}}" alt="java" class="img-fluid">
+                              <h5>{{card.text}}</h5>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="development_process bg-light">
+      <div class="container text-center">
+          <h2 class="h2 mb-5">{{androidData?.section2.heading}}</h2>
+          <div class="img_data justify-content-center">
+              <div class="data d-flex flex-column align-items-center" *ngFor="let card of androidData?.section2.cards">
+                  <img src="{{card.url}}" alt="research" class="img-fluid">
+                  <h5>{{card.text}}</h5>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="client_work paddingY-10 border-bottom">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-9 mb-3">
+                  <h2 class="h2 text-center">{{androidData?.section3.heading}}</h2>
+              </div>
+          </div>
+          <div class="work_portfolio">
+              <div class="row row-1 m-auto">
+                  <div class="col-sm-6 col-md-4 col-lg-4 p-4" *ngFor="let card of androidData.section3.cards; index as i">
+                      <div class="hover-figcaption" >
+                        <img [src]="card.previewUrl" class="img-fluid" [lightbox]="i">
+                        <figcaption>
+                          <h4 class="font-weight-600">{{card.text}}</h4>
+                        </figcaption>
+                      </div>
+                  </div>
+              </div>
+              <div class="portfolio_btn text-center mt-5" *ngFor="let card of androidData?.section3.button" (click)="matchproduct(card.routerlink)">
+                  <a href="javascript:viod(0);" class="btn btn-main">{{card.text}}</a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="project_sec py-4 my-5">
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-lg-9">
+                  <div class="heading text-center">
+                      <h2 class="head mb-5 fw-800">{{androidData?.section4.heading}}</h2>
+                      <p class="mb-5">{{androidData?.section4.content}}</p>
+                      <div class="btn_talk text-center" *ngFor="let card of androidData?.section4.cards">
+                          <a href="javascript:viod(0);" routerLink="{{card.routerlink}}" class="btn btn-main">{{card.text}}</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="explore_thinking paddingY-10" style="display: none;">
+      <div class="container-fluid">
+          <div class="text-center">
+              <h2 class="h2 mb-5">Explore our thinking</h2>
+          </div>
+          <div class="row mb-5">
+              <div class="col-lg-4 col-md-6 p-3">
+                  <a href="javascript:void(0);" routerLink="/blog-details"><img src="assets/images/blog1.jpg" class="img-fluid"></a>
+                  <div class="blog-content py-5 px-4">
+                      <span class="text-uppercase font-weight-600 blog-date">30 Sep, 2019</span>
+                      <div class="text-muted mb-4">By Deni Rosee</div>
+                      <a href="javascript:void(0);"  routerLink="/blog-details" class="text-dark">
+                          <h4 class="font-weight-600 mb-3">Real Estate App
+                              Development: How We Can Digitalize the Industry </h4>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 p-3">
+                  <a href="javascript:void(0);"  routerLink="/blog-details"><img src="assets/images/blog2.jpg" class="img-fluid"></a>
+                  <div class="blog-content py-5 px-4">
+                      <span class="text-uppercase font-weight-600 blog-date">29 Sep, 2019</span>
+                      <div class="text-muted mb-4">By Anand Kumare</div>
+
+                      <a href="javascript:void(0);"  routerLink="/blog-details" class="text-dark">
+                          <h4 class="font-weight-600 mb-3">How to Use Websockets in Golang : Best Tools and
+                              Step-by-Step Guide </h4>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-lg-4 col-md-6 p-3">
+                  <a href="javascript:void(0);"  routerLink="/blog-details"><img src="assets/images/blog3.jpg" class="img-fluid"></a>
+                  <div class="blog-content py-5 px-4">
+                      <span class="text-uppercase font-weight-600 blog-date">28 Sep, 2019</span>
+                      <div class="text-muted mb-4">By Vivek Sharma</div>
+                      <a href="javascript:void(0);"  routerLink="/blog-details" class="text-dark">
+                          <h4 class="font-weight-600 mb-3">How Product/Market Fit Canvas Can Help You in App
+                              Development </h4>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-12 text-center">
+                  <a href="javascript:void(0);"  routerLink="/blog"class="btn btn-main">Read all post</a>
+              </div>
+          </div>
+      </div>
+  </section>
+</main>
