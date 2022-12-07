@@ -1,0 +1,22 @@
+{
+  "section1": {
+    "heading": "Please fill the form below to contact us",
+    "text": "Got a project in mind?",
+    "content": "Discuss your project to get all the questions answered by our business development consultants.",
+    "cards": [
+      { "linking": "sale@visionvivante.com", "text": "New Project Inquiries" },
+      { "linking": "hr@visionvivante.com", "text": "HR Inquiries" },
+      { "linking": "info@visionvivante.com", "text": "Other Inquiries" }
+    ]
+  },
+  "section2": {
+    "heading": "Contact Information",
+    "cards": [
+      {
+        "url": "assets/images/office.png",
+        "text": "SCO 21 Second Floor Swastik Vihar, Mansa Devi Complex, Sector 5, Panchkula, Haryana 134114",
+        "icons": "bi bi-geo-alt-fill"
+      }
+    ]
+  }
+}

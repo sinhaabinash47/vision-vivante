@@ -1,0 +1,43 @@
+{
+  "section1": {
+    "heading": "Digital Marketing",
+    "content": "In today's scenario, many people do online research before they buy anything, and we understand marketing trends and consumer behavior, what they like at what time. Delivering appropriate knowledge about your product or services is easy to connect with your potential customers.",
+    "cards": [
+      {
+        "url": "assets/images/social-media.png",
+        "text": "Social Media marketing"
+      },
+      { "url": "assets/images/payper.png", "text": "Pay Per Click" },
+      { "url": "assets/images/email-market.png", "text": "Email Marketing" },
+      { "url": "assets/images/content-market.png", "text": "Content Marketing" }
+    ]
+  },
+  "section2": {
+    "heading": "Digital Marketing Process",
+    "cards": [
+      {
+        "url": "assets/images/requirement-ana.png",
+        "text": "Audit and Analysis"
+      },
+      { "url": "assets/images/brain.png", "text": "Strategy framework" },
+      { "url": "assets/images/manual.png", "text": "Optimization" },
+      { "url": "assets/images/writing-test.png", "text": "Content creation" },
+      { "url": "assets/images/promotion-task.png", "text": "Promotion tasks" }
+    ]
+  },
+
+  "section3": {
+    "heading": "Few of our favorite projects",
+    "cards": [
+      { "url": "assets/images/hp-modelismo-popup.jpg", "previewUrl": "assets/images/hp-modelismo.jpg", "text": "HP MODELISMO" },
+      { "url": "assets/images/globava-popup.jpg", "previewUrl": "assets/images/globava.jpg", "text": "Globava" },
+      { "url": "assets/images/cashpost-popup.jpg", "previewUrl": "assets/images/cashpost.jpg", "text": "CashPost" }
+    ],
+    "button": [{ "routerlink": "/client-works", "text": "View Full Portfolio" }]
+  },
+  "section4": {
+    "heading": "Have a project in mind?",
+    "content": "It’s a pleasure to have you on our website. Let us know if there’s an opportunity for us to do something together.",
+    "cards": [{ "routerlink": "/contact", "text": "let's talk" }]
+  }
+}

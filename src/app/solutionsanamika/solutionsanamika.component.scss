@@ -1,0 +1,121 @@
+$gradient-main: -webkit-linear-gradient(180deg, #271887, #02bfe1);
+$extra-large-desktop: 1200px;
+$large-desktop: 1200px;
+$medium-desktop: 991px;
+$tablet: 767px;
+$mobile: 576px;
+$small-mobile: 576px;
+$gradient-color-2:linear-gradient(to right , #271887 30% , #02bfe1);
+.text-p-gray {
+    color: #808080;
+}
+
+.why-choose-solution .row div {
+    padding: 30px;
+    border-right: 1px solid #ddd;
+}
+.why-choose-solution .row div:nth-child(1), .why-choose-solution .row div:nth-child(2), .why-choose-solution .row div:nth-child(3) {
+    border-bottom: 1px solid #ddd;
+}
+.why-choose-solution img {
+    width: 70px;
+}
+.ul-horizontal {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    li{
+        display: inline-block;
+        width: auto !important;
+        margin: 3px;
+    }
+}
+.solution-banner-ul {
+    li{
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 100%;
+        margin: 7px;
+        img{
+            width: 50px;
+        }
+    }
+}
+.check-ul {
+    margin-bottom: 0;
+    padding-left: 30px;
+    line-height: 2;
+    li{
+        margin: 5px 0px;
+        list-style: none;
+        position: relative;
+        font-size: 17px;
+        line-height: 26px;
+        text-align: justify;
+        &::before{
+            content: "";
+            background: url(../../assets/images/checkmark.png) no-repeat;
+            position: absolute;
+            top: 0;
+            background-size: 20px 20px;
+            left: -30px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+}
+.testimonial-gradient {
+    background-image: linear-gradient(135deg, #271887, #02bfe1);
+}
+.tstm-div{
+    .carousel-indicators{
+        margin-bottom:-3rem;
+    }
+}
+.tab-sec {
+    background-color: #fff;
+    border: 1px solid #f9f9f9;
+    box-shadow: 0px 6px 14px 0px rgb(0 0 0 / 8%);
+    border-radius: 5px;
+    padding: 25px 15px;
+    color: #000;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    line-height: 21px;
+    margin-bottom: 1rem;
+    pointer-events: none;
+    img{
+        margin-right:1rem;
+    }
+}
+.image_container{
+    height: 40rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    @media (max-width:$medium-desktop){
+        height:31rem;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+.link_section{
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 1.8rem;
+    border-radius: 1.8rem;
+    @media (max-width:$small-mobile){
+        margin-top: 2rem;
+    }
+    h5{
+        a{
+            overflow-wrap: anywhere;
+        }
+    }
+}
+.list_design{
+    line-height: 2;
+}

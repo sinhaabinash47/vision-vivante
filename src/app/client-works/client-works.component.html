@@ -1,0 +1,138 @@
+<main>
+  <section class="gallery-box position-relative padding-100 first_section">
+    <div class="container-fluid">
+      <div class="row justify-content-center text-center">
+        <div class="col-lg-12 tab-list">
+          <mat-tab-group animationDuration="0ms" [selectedIndex]="matchurlindex">
+            <mat-tab>
+              <ng-template mat-tab-label>
+                <p class="mb-0 fw-normal" (click)="showimagedata(clientworkData?.section2.all)">All</p>
+              </ng-template>
+              <div class="container">
+                <div class="row row-1 m-auto">
+                  <div class="col-sm-6 col-md-4 col-lg-4 p-4" *ngFor="let card of clientworkData.section2.all; index as i">
+                    <div class="hover-figcaption">
+                      <img [src]="card.previewUrl" class="img-fluid" alt="hp modelismo" [lightbox]="i">
+                      <figcaption>
+                        <h4 class="font-weight-600">{{card.text}}</h4>
+                      </figcaption>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </mat-tab>
+            <mat-tab>
+              <ng-template mat-tab-label >
+                <p class="mb-0 fw-normal" (click)="showimagedata(clientworkData?.section2.producdDesign)"> Product Design</p>
+              </ng-template>
+              <div class="container">
+                <div class="row row-1 m-auto">
+                  <div class="col-sm-6 col-md-4 col-lg-4 p-4" *ngFor="let card of clientworkData?.section2.producdDesign; index as i">
+                    <div class="hover-figcaption">
+                      <img [src]="card.url" class="img-fluid" [lightbox]="i">
+                      <figcaption>
+                        <h4 class="font-weight-600">{{card.text}}</h4>
+                      </figcaption>
+                    </div>
+                  </div>
+                  
+ 
+                </div>
+              </div>
+            </mat-tab>
+
+            <mat-tab>
+              <ng-template mat-tab-label>
+                <p class="mb-0 fw-normal" (click)="showimagedata(clientworkData?.section2.mobiledevelopment)">Mobile Development</p>
+              </ng-template>
+              <div class="container">
+                <div class="row row-1 m-auto">
+                  <div class="col-sm-6 col-md-4 col-lg-4 p-4" *ngFor="let card of clientworkData?.section2.mobiledevelopment; index as i">
+                    <div class="hover-figcaption">
+                      <img [src]="card.previewUrl" class="img-fluid" alt="Pbios" [lightbox]="i">
+                      <figcaption>
+                        <h4 class="font-weight-600">{{card.text}}</h4>
+                      </figcaption>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </mat-tab>
+
+
+            <mat-tab>
+              <ng-template mat-tab-label>
+                <p class="mb-0 fw-normal" (click)="showimagedata(clientworkData?.section2.websiteDevelopment)">Website Development</p>
+              </ng-template>
+              <div class="container">
+
+                <div class="row row-1 m-auto">
+                  <div class="col-sm-6 col-md-4 col-lg-4 p-4" *ngFor="let card of clientworkData?.section2.websiteDevelopment; index as i">
+                    <div class="hover-figcaption">
+                      <img [src]="card.url" class="img-fluid" alt="Airburd" [lightbox]="i">
+                      <figcaption>
+                        <h4 class="font-weight-600">{{card.text}}</h4>
+                      </figcaption>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </mat-tab>
+
+            <mat-tab>
+              <ng-template mat-tab-label>
+                <p class="mb-0 fw-normal" (click)="showimagedata(clientworkData?.section2.qualityassurance)">Quality Assurance</p>
+              </ng-template>
+              <div class="container">
+                <div class="row row-1 m-auto">
+
+                  <div class="col-sm-6 col-md-4 col-lg-4 p-4" *ngFor="let card of clientworkData?.section2.qualityassurance; index as i">
+                    <div class="hover-figcaption">
+                      <img [src]="card.url" class="img-fluid" alt="Airburd" [lightbox]="i">
+                      <figcaption>
+                        <h4 class="font-weight-600">{{card.text}}</h4>
+                      </figcaption>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </mat-tab>
+
+            <mat-tab>
+              <ng-template mat-tab-label>
+                <p class="mb-0 fw-normal" (click)="showimagedata(clientworkData?.section2.digitalmarketing)">Digital Marketing</p>
+              </ng-template>
+              <div class="container">
+                <div class="row row-1 m-auto">
+
+                  <div class="col-sm-6 col-md-4 col-lg-4 p-4" *ngFor="let card of clientworkData?.section2.digitalmarketing; index as i">
+                    <div class="hover-figcaption">
+                      <img [src]="card.previewUrl" class="img-fluid" alt="greenhse" [lightbox]="i">
+                      <figcaption>
+                        <h4 class="font-weight-600">{{card.text}}</h4>
+                      </figcaption>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </mat-tab>
+          </mat-tab-group>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cta-section pb-5">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-10 col-lg-8" *ngFor="let card of clientworkData?.section3.cards">
+          <h2 class="h2 mb-5">{{clientworkData?.section3.heading}}</h2>
+          <p class="mb-5">{{clientworkData?.section3.content}}</p><a href="javascript:void(0);" routerLink="/contact"
+            class="btn btn-main">{{card.link}}</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>

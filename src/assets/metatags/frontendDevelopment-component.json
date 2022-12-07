@@ -1,0 +1,45 @@
+{
+  "section1": {
+    "heading": "Frontend Development",
+    "content": "We provide top-notch Frontend development services to create attractive, fully functional products for small to large businesses. We have expertise in various tools and technology React, Angular, Vue JS, Svelte, Ember JS, and many more.",
+    "cards": [
+      { "url": "assets/images/react.png", "text": "React" },
+      { "url": "assets/images/angular.png", "text": "Angular" },
+      { "url": "assets/images/vue-js.png", "text": "Vue Js" },
+      { "url": "assets/images/html.png", "text": "HTML" },
+      { "url": "assets/images/npm.png", "text": "NPM" },
+      { "url": "assets/images/next-js.png", "text": "Next Js" },
+      { "url": "assets/images/typescript.png", "text": "Typescript" },
+      { "url": "assets/images/pwa.png", "text": "PWA" },
+      { "url": "assets/images/tailwind.png", "text": "Tailwind" },
+      { "url": "assets/images/javascript.png", "text": "Javascript" },
+      { "url": "assets/images/graphql.png", "text": "GraphQL" }
+
+    ]
+  },
+  "section2": {
+    "heading": "Development process",
+    "cards": [
+      { "url": "assets/images/slice.png", "text": "Slicing" },
+      { "url": "assets/images/react-logo1.png", "text": "Frameworks" },
+      { "url": "assets/images/code1.png", "text": "API Integration" },
+      { "url": "assets/images/process-4.png", "text": "Testing" },
+      { "url": "assets/images/process-5.png", "text": "Deployment" }
+    ]
+  },
+
+  "section3": {
+    "heading": "Few of our favorite projects",
+    "cards": [
+      { "url": "assets/images/horse24-popup.jpg", "previewUrl": "assets/images/horse24.jpg", "text": "Horse24" },
+      { "url": "assets/images/bookyourcook-popup.jpg", "previewUrl": "assets/images/bookyourcook.jpg", "text": "Bookyour cook" },
+      { "url": "assets/images/airbud-popup.jpg", "previewUrl": "assets/images/airbud.jpg", "text": "Airbuds" }
+    ],
+    "button": [{ "routerlink": "/client-works", "text": "View Full Portfolio" }]
+  },
+  "section4": {
+    "heading": "Have a project in mind?",
+    "content": "It’s a pleasure to have you on our website. Let us know if there’s an opportunity for us to do something together.",
+    "cards": [{ "routerlink": "/contact", "text": "let's talk" }]
+  }
+}

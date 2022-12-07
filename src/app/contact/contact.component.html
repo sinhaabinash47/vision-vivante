@@ -1,0 +1,132 @@
+<main>
+
+  <section class="about-us-section first_section padding-100">
+    <div class="container-fluid">
+      <div class="row justify-content-between form-content mt-5">
+        <div class="col-md-7">
+          <div class="contact-form">
+            <h3 class="mb-5 mb-md-5 font-weight-600">{{contactData.section1.heading}}</h3>
+            <form method="" action="" class="v_form" [formGroup]="contactform" (ngSubmit)="onSubmit()">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" formControlName="name" class="form-control"
+                      [ngClass]="{'error': submitted && f['name'].errors}" id="name" />
+                    <label for="name">Name*</label>
+                    <div *ngIf="submitted &&  f['name'].errors" class="text-danger required-text">
+                      <div *ngIf=" f['name']['errors']['required']">Name is required</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <input type="email" formControlName="email" class="form-control" id="email"
+                      [ngClass]="{'error': submitted && f['email'].errors}" />
+                    <label for="email">Email*</label>
+
+                    <div class="required-text"><span class="text-danger"
+                        *ngIf="contactform.controls['email'].hasError('pattern') && (contactform.controls['email'].dirty || contactform.controls['email'].touched)">
+                        Please enter valid email address</span>
+                      <div class="text-danger mb-3"
+                        *ngIf="submitted  &&  f['email']['errors'] && f['email']['errors']['required']">
+                        Email is required
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                 
+                <div class="col-md-6">
+                  <div class="form-group phone-group">
+                    <input type="number" class="form-control phone-number" formControlName="phone" id="phone_number" ng2TelInput />
+                    <label for="phone_number"></label>
+                    <div class="required-text">
+                      <span class="text-danger" 
+                        *ngIf="contactform.controls['phone'].hasError('pattern') && (contactform.controls['phone'].dirty || contactform.controls['phone'].touched)">Please
+                        enter valid mobile number</span>
+                      <div *ngIf="submitted &&  f['phone'].errors" class="text-danger mb-3">
+                        <div *ngIf=" f['phone']['errors']['required']">Phone Number is required</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <input type="text" maxlength="250" class="form-control" id="message" formControlName="message" />
+                    <label for="message">Message*</label>
+                    <div *ngIf="submitted &&  f['message'].errors" class="text-danger required-text">
+                      <div *ngIf=" f['message']['errors']['required']">Message is required</div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="col-md-12">
+                    <button type="submit" class="btn btn-main" [disabled]="submitted">Send Message</button>
+                  </div>
+              </div>
+               
+             
+            </form>
+          </div>
+        </div>
+
+        <div class="col-lg-5 col-md-5 align-self-center">
+          <div class="contact-inquries mt-md-0 mt-5">
+            <h4 class="font-weight-600 mb-3 mb-md-3">{{contactData?.section1.text}}</h4>
+            <p class="text-white">{{contactData?.section1.content}}</p>
+
+            <div class="mt-5" *ngFor="let card of contactData?.section1.cards">
+              <h5 class="font-weight-600 text-white">
+               {{card.text}}
+              </h5>
+              <a href="mailto:info@visionvivante.com" class="text-white">{{card.linking}}</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="prensence-section position-relative paddingB-10">
+    <div class="container-fluid">
+      <h2 class="mb-5 text-center">Contact Information</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-4">
+          <div class="office-address text-center">
+            <i class="bi bi-geo-alt-fill"></i>
+            <h4 class="font-weight-600 my-3">Visit Us</h4>
+            <p class="mb-0">
+              <a href="https://g.page/visionvivante?share" target="_blank"> SCO 21 Second Floor
+                Swastik Vihar, Mansa Devi Complex, Sector 5, Panchkula,
+                Haryana 134114</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="office-address text-center">
+            <i class="bi bi-clock-fill"></i>
+            <h4 class="font-weight-600 my-3">Business Hours</h4>
+            <p class="mb-0"> Mon - Fri : 10:00 AM – 7:00 PM </p>
+            <p class="mb-0">&nbsp;</p>
+            <p class="mb-0">&nbsp;</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="office-address text-center">
+            <i class="bi bi-telephone-fill"></i>
+            <h4 class="font-weight-600 my-3">Call Us</h4>
+            <p class="mb-0"> 
+              <a href="tel:+919915103211"> +919915103211 </a>
+            </p>
+            <p class="mb-0"> 
+              <a href="tel:+919524186222"> +919524186222 </a>
+            </p>
+            <p class="mb-0">&nbsp;</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>

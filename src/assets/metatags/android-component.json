@@ -1,0 +1,40 @@
+{
+  "section1": {
+    "heading": "Android Development",
+    "content": "We offer high-quality and bug-free Android app development services. We have a team of agile android developers to create secure, fully functional, and futuristic android apps. Also, we provide you with excellent ongoing support.",
+    "cards": [
+      { "url": "assets/images/java.png", "text": "Java" },
+      { "url": "assets/images/kotlin.png", "text": "Kotlin" },
+      { "url": "assets/images/gradle.png", "text": "Gradle" },
+      { "url": "assets/images/android-studio.png", "text": "Android Studio" },
+      { "url": "assets/images/feather.png", "text": "InDesign" }
+    ]
+  },
+  "section2": {
+    "heading": "Development process",
+    "cards": [
+      { "url": "assets/images/process-1.png", "text": "Research & Analysis" },
+      {
+        "url": "assets/images/process-2.png",
+        "text": "Prepare Mockups & Prototypes"
+      },
+      { "url": "assets/images/process-3.png", "text": "App Design" },
+      { "url": "assets/images/process-4.png", "text": "App Testing" },
+      { "url": "assets/images/process-5.png", "text": "Launch App" }
+    ]
+  },
+  "section3": {
+    "heading": "Few of our favorite projects",
+    "cards": [
+      { "url": "assets/images/asbai-popup.png", "previewUrl": "assets/images/asbai.png", "text": "Victor App" },
+      { "url": "assets/images/safetydrop-popu.png", "previewUrl": "assets/images/SafetyDrop-app.png", "text": "Safetydrop" },
+      { "url": "assets/images/pcr4travel-popup.png", "previewUrl": "assets/images/PCR4Travel.png", "text": "PCR4Travel" }
+    ],
+    "button": [{ "routerlink": "/client-works", "text": "View Full Portfolio" }]
+  },
+  "section4": {
+    "heading": "Have a project in mind?",
+    "content": "It’s a pleasure to have you on our website. Let us know if there’s an opportunity for us to do something together.",
+    "cards": [{ "routerlink": "/contact", "text": "let's talk" }]
+  }
+}

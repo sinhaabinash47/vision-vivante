@@ -1,0 +1,165 @@
+$gradient-main: linear-gradient(to left, #02bfe1 50% , #271887  );
+$color-black: #000;
+$color-light-blue:#02bfe1;
+$extra-large-desktop: 1200px;
+$large-desktop: 1200px;
+$medium-desktop: 991px;
+$tablet: 767px;
+$mobile: 576px;
+$small-mobile: 576px;
+$font-family-bold:'Averta-Bold';
+$font-family-regular:'Averta-Regular';
+.banner_wrapper{
+    .inner-content{
+        position: relative;
+        z-index:2;
+        h1{
+            span{
+                background: $gradient-main;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.v_form{
+    .form-group {
+        margin-bottom:3rem;
+        .form-control{
+            font-size:17px;
+            padding:10px 0;
+            line-height: normal;
+            border-radius: 0;
+            border: 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .phone-number{
+            padding-left: 45px;
+  
+        }
+        &>label{
+            bottom: 35px;
+            left: 0px;
+            position: relative;
+            font-size:17px;
+            transition: 0.2s;
+            pointer-events: none;
+            color:#808080;
+        }
+        .heading-label{
+            font-size: 20px;
+        }
+        .form-control:focus{
+            box-shadow:0 0 transparent;
+            border-image: $gradient-main 30;
+        }
+        .form-control:focus~label {
+            bottom: 65px;
+        }
+        .ng-touched~label {
+            bottom: 65px;
+        }
+        .required-text{
+          position: relative;
+          top:-21px;
+        }
+        .project-types {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            .list{
+                margin-right: 8px;
+                margin-bottom: 8px;
+                input{
+                    display: none;
+                }
+                input:checked + label{
+                    background:$gradient-main;
+                    color:#fff;
+                }
+                label{
+                    padding:10px 20px;
+                    border-radius:40px;
+                    color:#808080;
+                    background-color:#f5f5f5;
+                    cursor: pointer;
+                    font-size: 17px;
+                    user-select: none;
+                    white-space: nowrap;
+                }
+            }
+        }
+        &.phone-group  ::ng-deep {
+            .required-text {
+            top: 0;
+          }
+          .iti {
+            width: 100%;
+          }
+         }
+    }
+    .attach-files{
+        margin-bottom:3rem;
+        input{
+            display: none;
+        }
+        label{
+            display:block;
+            cursor:pointer;
+            background-color:#f7f7f7;
+            border:1px dashed #ccc;
+            padding:30px 20px;
+            font-size: 20px;
+        }
+    }
+}
+.form-check{
+    .form-check-input {
+        margin-top: 0.15em;
+    }
+}
+
+@media (max-width:$tablet){
+    .v_form{
+        .form-group {
+            .form-control{
+                font-size:17px;
+            }
+            &>label{
+                font-size:17px;
+            }
+            .heading-label{
+                font-size: 17px;
+            }
+            .project-types {
+                .list{
+                    margin-right: 5px;
+                    margin-bottom: 5px;
+                    label{
+                        padding:10px 20px;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .attach-files{
+            label{
+                padding:15px 10px;
+                font-size: 17px;
+            }
+        }
+    }
+}
+.text-danger{
+    font-size: 15px;
+}

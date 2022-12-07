@@ -1,0 +1,116 @@
+[
+  {
+    "page": "Home",
+    "title": "Software Development & Internet Marketing Company | Vision Vivante",
+    "tags": [
+      {
+        "name": "description",
+        "content": "Best Software Development & Internet Marketing Company for small, medium and big Businesses. Offers end-to-end custom Web development, Web designing, iOS Android Mobile App, and SEO services."
+      },
+      {
+        "name": "keyword",
+        "content": "Best Software Development & Internet Marketing Company for small, medium and big Businesses. Offers end-to-end custom Web development, Web designing, iOS Android Mobile App, and SEO services."
+      }
+    ]
+  },
+  {
+    "page": "About",
+    "title": "Who is Vision Vivante | About Us",
+    "tags": [
+      {
+        "name": "description",
+        "content": "Vision Vivante Pvt Ltd is an offshore IT software and marketing company. We have a team of professional software engineers, designers, and online marketing experts."
+      },
+      {
+        "name": "keyword",
+        "content": "Best Software Development & Internet Marketing Company for small, medium and big Businesses. Offers end-to-end custom Web development, Web designing, iOS Android Mobile App, and SEO services."
+      }
+    ]
+  },
+  {
+    "page": "Contact",
+    "title": "Get in Touch with Vision Vivante | Contact Us",
+    "tags": [
+      {
+        "name": "description",
+        "content": "Our mission is to drive value for your business. If you want to build a Website or Mobile App, and do you want to rank high on Google searches? Get a FREE consultation with our expert."
+      },
+      {
+        "name": "keyword",
+        "content": "Best Software Development & Internet Marketing Company for small, medium and big Businesses. Offers end-to-end custom Web development, Web designing, iOS Android Mobile App, and SEO services."
+      }
+    ]
+  },
+  {
+    "page": "Solutions",
+    "title": "A Complete Web & App and Marketing Solutions | Vision Vivante",
+    "tags": [
+      {
+        "name": "description",
+        "content": "Get a complete web, tech, and marketing solution for more than 50+ industries, including Small, medium, and larger, in one place. Get a FREE consultation with our expert."
+      },
+      {
+        "name": "keyword",
+        "content": "Best Software Development & Internet Marketing Company for small, medium and big Businesses. Offers end-to-end custom Web development, Web designing, iOS Android Mobile App, and SEO services."
+      }
+    ]
+  },
+  {
+    "page": "Blog",
+    "title": "The Vision Vivante Blog | Enhance your Knowledge",
+    "tags": [
+      {
+        "name": "description",
+        "content": "Get all the latest Websites & Apps and Digital marketing-related news and update in one place by Vision Vivante. Visit our blog today and subscribe!"
+      },
+      {
+        "name": "keyword",
+        "content": "Get all the latest Websites & Apps and Digital marketing-related news and update in one place by Vision Vivante. Visit our blog today and subscribe!"
+      }
+    ]
+  },
+  {
+    "page": "Service",
+    "title": "Services | Web Development, Mobile App, Digital Marketing",
+    "tags": [
+      {
+        "name": "description",
+        "content": "We provide top-notch services you need under one roof - Web development & designing, Graphic designing, iOS Andriod Mobile App SEO, Social media, and Paid Ads etc."
+      },
+      {
+        "name": "keyword",
+        "content": "Best Software Development & Internet Marketing Company for small, medium and big Businesses. Offers end-to-end custom Web development, Web designing, iOS Android Mobile App, and SEO services."
+      }
+    ],
+    "children": [
+      {
+        "page": "Contact",
+        "title": "Get in Touch with Vision Vivante | Contact Us",
+        "tags": [
+          {
+            "name": "description",
+            "content": "Our mission is to drive value for your business. If you want to build a Website or Mobile App, and do you want to rank high on Google searches? Get a FREE consultation with our expert."
+          },
+          {
+            "name": "keyword",
+            "content": "Best Software Development & Internet Marketing Company for small, medium and big Businesses. Offers end-to-end custom Web development, Web designing, iOS Android Mobile App, and SEO services."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "page": "client-works",
+    "title": "View Our Work | Vision Vivante",
+    "tags": [
+      {
+        "name": "description",
+        "content": "We help our clients to climb up to the next level with amazing portfolios, including mobile app development, websites development, graphic design, and digital marketing. Feel free to call us!"
+      },
+      {
+        "name": "keyword",
+        "content": "Account, Answering, Client, Communication, Computer, Customer, Database, Detail."
+      }
+    ]
+  }
+]

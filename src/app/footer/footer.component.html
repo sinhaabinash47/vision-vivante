@@ -1,0 +1,54 @@
+<footer>
+  <div class="container-fluid ps-0">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-4 mb-md-0 mb-4">
+        <div class="contact_us">
+          <div class="data mail">
+            <a href="mailto:info@visionvivante.com">
+            <i class="fa-solid fa-envelope"></i> info@visionvivante.com
+            </a>
+          </div>
+          <div class="data phonne">
+            <a href="tel:+919915103211">
+              <i class="fa-solid fa-phone"></i> +919915103211
+            </a>
+          </div>
+          <div class="data skype">
+            <a href="https://join.skype.com/invite/LWQ3Yvoma1xd" target="_blank"><i class="fa-brands fa-skype"></i> visionvivante
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-8 col-sm-8">
+        <div class="footer-logo">
+          <div class="logo">
+            <img src="{{homeData?.section.heading}}" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="main-links" >
+          <div class="footer-menu d-flex justify-content-center" >
+            <a href="javascript:void(0)" *ngFor="let card of homeData?.section.cards" routerLink="{{card.routerLink}}" class="menu-links">{{card.text}}</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 text-md-start">
+        <div class="social_links mt-5 mt-md-0">
+          <div class="social_icon mb-4">
+            <a  target="_blank"  *ngFor="let card of homeData?.section.cards"  href="{{card.social}}" class="icon" ><i [ngClass]='card.icons'></i></a>
+          </div>
+          <div class="btn-quote">
+            <a href="javascript:void(0)" routerLink="/get-quote" class="btn btn-main btn-main-outline">Get Quote</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="copyright text-center mt-5">
+          <p class="mb-0">© Copyright 2022 Vision Vivante | All Rights Reserved. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+

@@ -1,0 +1,43 @@
+{
+  "section1": {
+    "heading": "Software testing & QA",
+    "content": "Our testing engineers provide outstanding QA testing services through a deep analysis that discovers any bugs in the earliest stages and fixes issues promptly. We are validating UI testing, API testing, and Functional testing."
+  },
+  "section2": {
+    "heading": "Our Quality process",
+    "cards": [
+      {
+        "url": "assets/images/requirement-ana.png",
+        "text": "Requirement Analysis"
+      },
+      {
+        "url": "assets/images/requirement-ana.png",
+        "text": "Test case development"
+      },
+      {
+        "url": "assets/images/environment.png",
+        "text": "Test Environment setup"
+      },
+      { "url": "assets/images/api.png", "text": "Test Execution" },
+      {
+        "url": "assets/images/testing-duo.png",
+        "text": "Delivered bug-free product"
+      }
+    ]
+  },
+
+  "section3": {
+    "heading": "Few of our favorite projects",
+    "cards": [
+      { "url": "assets/images/hp-modelismo-popup.jpg", "previewUrl": "assets/images/hp-modelismo.jpg", "text": "HP MODELISMO" },
+      { "url": "assets/images/cashpost-popup.jpg", "previewUrl": "assets/images/cashpost.jpg", "text": "CashPost" },
+      { "url": "assets/images/globava-popup.jpg", "previewUrl": "assets/images/globava.jpg", "text": "Globava" }
+    ],
+    "button": [{ "routerlink": "/client-works", "text": "View Full Portfolio" }]
+  },
+  "section4": {
+    "heading": "Have a project in mind?",
+    "content": "It’s a pleasure to have you on our website. Let us know if there’s an opportunity for us to do something together.",
+    "cards": [{ "routerlink": "/contact", "text": "let's talk" }]
+  }
+}

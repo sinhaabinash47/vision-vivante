@@ -1,0 +1,104 @@
+{
+  "section1": {
+    "heading": "Our nature is effortless technology.",
+    "content": "We make things run as smooth as nature.",
+    "all": [
+      {
+        "url": "assets/images/blog1.jpg",
+        "date": "30 SEP, 2019",
+        "name": "By Deni Rose",
+        "heading": "Real Estate App Development: How We Can Digitalize the Industry",
+        "text": "What should real estate apps do to keep up with the times? Read about in-app home tours.",
+        "link": "/blog-details"
+      },
+      {
+        "url": "assets/images/blog2.jpg",
+        "date": "29 SEP, 2019",
+        "name": "By Anand Kumare",
+        "heading": "How to Use Websockets in Golang : Best Tools and Step-by-Step Guide",
+        "text": "Discover our introduction to WebSockets technology: what are they, how to build them.",
+        "link": "/blog-details"
+      },
+      {
+        "url": "assets/images/blog3.jpg",
+        "date": "28 SEP, 2019",
+        "name": "By Vivek Sharma",
+        "heading": "How Product/Market Fit Canvas Can Help You in App Development",
+        "text": "If you want to find out who your customers are, how to connect with them and meet their...",
+        "link": "/blog-details"
+      }
+    ],
+    "design": [
+      {
+        "url": "assets/images/blog2.jpg",
+        "date": "29 SEP, 2019",
+        "name": "By Anand Kumare",
+        "heading": "How to Use Websockets in Golang : Best Tools and Step-by-Step Guide",
+        "text": "Discover our introduction to WebSockets technology: what are they, how to build them.",
+        "link": "/blog-details"
+      },
+      {
+        "url": "assets/images/blog3.jpg",
+        "date": "28 SEP, 2019",
+        "name": "By Vivek Sharma",
+        "heading": "How Product/Market Fit Canvas Can Help You in App Development",
+        "text": "If you want to find out who your customers are, how to connect with them and meet their...",
+        "link": "/blog-details"
+      }
+    ],
+    "programming": [
+      {
+        "url": "assets/images/blog3.jpg",
+        "date": "28 SEP, 2019",
+        "name": "By Vivek Sharma",
+        "heading": "How Product/Market Fit Canvas Can Help You in App Development",
+        "text": "If you want to find out who your customers are, how to connect with them and meet their...",
+        "link": "/blog-details"
+      }
+    ],
+    "technology": [
+      {
+        "url": "assets/images/blog2.jpg",
+        "date": "29 SEP, 2019",
+        "name": "By Anand Kumare",
+        "heading": "How to Use Websockets in Golang : Best Tools and Step-by-Step Guide",
+        "text": "Discover our introduction to WebSockets technology: what are they, how to build them.",
+        "link": "/blog-details"
+      },
+      {
+        "url": "assets/images/blog3.jpg",
+        "date": "28 SEP, 2019",
+        "name": "By Vivek Sharma",
+        "heading": "How Product/Market Fit Canvas Can Help You in App Development",
+        "text": "If you want to find out who your customers are, how to connect with them and meet their...",
+        "link": "/blog-details"
+      }
+    ],
+    "insights": [
+      {
+        "url": "assets/images/blog1.jpg",
+        "date": "30 SEP, 2019",
+        "name": "By Deni Rose",
+        "heading": "Real Estate App Development: How We Can Digitalize the Industry",
+        "text": "What should real estate apps do to keep up with the times? Read about in-app home tours.",
+        "link": "/blog-details"
+      },
+      {
+        "url": "assets/images/blog2.jpg",
+        "date": "29 SEP, 2019",
+        "name": "By Anand Kumare",
+        "heading": "How to Use Websockets in Golang : Best Tools and Step-by-Step Guide",
+        "text": "Discover our introduction to WebSockets technology: what are they, how to build them.",
+        "link": "/blog-details"
+      },
+      {
+        "url": "assets/images/blog3.jpg",
+        "date": "28 SEP, 2019",
+        "name": "By Vivek Sharma",
+        "heading": "How Product/Market Fit Canvas Can Help You in App Development",
+        "text": "If you want to find out who your customers are, how to connect with them and meet their...",
+        "link": "/blog-details"
+      }
+    ]
+  }
+}

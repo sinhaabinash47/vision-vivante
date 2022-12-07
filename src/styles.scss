@@ -1,0 +1,511 @@
+@use '@angular/material' as mat;
+@include mat.core();
+@font-face {
+  font-family: 'Averta-Black';
+  src: url('assets/fonts/Averta-Black.eot');
+  src: url('assets/fonts/Averta-Black.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/Averta-Black.woff') format('woff'),
+      url('assets/fonts/Averta-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Averta-Bold';
+  src: url('assets/fonts/Averta-Bold.eot');
+  src: url('assets/fonts/Averta-Bold.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/Averta-Bold.woff') format('woff'),
+      url('assets/fonts/Averta-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Averta-ExtraBold';
+  src: url('assets/fonts/Averta-ExtraBold.eot');
+  src: url('assets/fonts/Averta-ExtraBold.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/Averta-ExtraBold.woff') format('woff'),
+      url('assets/fonts/Averta-ExtraBold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Averta-Semibold';
+  src: url('assets/fonts/Averta-Semibold.eot');
+  src: url('assets/fonts/Averta-Semibold.eot?#iefix') format('embedded-opentype'),
+      url('assets/fonts/Averta-Semibold.woff') format('woff'),
+      url('assets/fonts/Averta-Semibold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Averta-Regular';
+  src: url('assets/fonts/Averta-Regular.eot'),
+      url('assets/fonts/Averta-Regular.woff') format('woff'),
+      url('assets/fonts/Averta-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Averta-Light';
+  src: url('assets/fonts/Averta-Light.eot'),
+  url('assets/fonts/Averta-Light.woff') format('woff'),
+  url('assets/fonts/Averta-Light.ttf') format('truetype');
+}
+
+/* You can add global styles to this file, and also import other style files */
+$gradient-main: -webkit-linear-gradient(180deg, #271887, #02bfe1);
+$gradient-danger: -webkit-linear-gradient(180deg, #d11212, #6a0b0b);
+$large-desktop: 1200px;
+$medium-desktop: 991px;
+$tablet: 767px;
+$mobile: 576px;
+$small-mobile: 576px;
+$font-family-extra-bold:'Averta-ExtraBold';
+$font-family-bold:'Averta-Bold';
+$font-family-regular:'Averta-Regular';
+$font-family-light:'Averta-Light';
+$color-black: #000;
+$color-light-blue:#02bfe1;
+
+html, body { height: 100%; line-height: normal !important; font-size: 10px; }
+body { margin: 0; font-family:$font-family-regular;color: #131313;font-size: 15px; }
+.mat-body, .mat-body-1, .mat-typography .mat-body, .mat-typography .mat-body-1, .mat-typography{  
+  line-height: normal !important;
+}
+
+.btn-main{
+  font-size: 15px !important;
+  color: #fff !important;
+  padding: 12px 25px !important;
+  background: $gradient-main !important;
+  border-radius: 50px !important;
+  text-decoration: none !important;
+  border: 0 !important;
+  line-height: normal;
+  @media (max-width:$large-desktop){  
+    padding:8px 15px !important;
+  }
+}
+.btn-main-outline{
+  background: transparent !important;
+  border: 1px solid #fff !important;
+  color: #fff;
+  &:hover{
+    background: #fff !important;
+    color: #000 !important;
+}
+  
+  @media (max-width:$large-desktop){
+    padding: 1.6rem 2.6rem;
+    font-size: 14px!important;
+  }
+}
+.btn-main-outline-black{
+  background: transparent !important;
+  border: 1px solid #131313 !important;
+   color: #131313!important;
+   transition: background 0.3s ease-in-out;
+   &:hover{
+    background: #131313 !important;
+    color:#fff !important;
+   }
+}
+ .text-gradient, [class^='material']{
+  background: $gradient-main;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.z-99{
+  z-index: 99;
+}
+h1 , h2 , h3 ,h4 , h5 , h6{
+  letter-spacing: -0.5px;
+}
+
+// typography
+
+h1,.h1{
+  font-size: 62px;
+  line-height: 70px;
+  font-family: 'Averta-Bold';
+  @media (max-width:$large-desktop){
+    font-size: 52px;
+  }
+  @media (max-width:$medium-desktop){
+    font-size: 50px;
+  }
+  @media (max-width:$tablet){
+    font-size: 47px;
+  }
+  @media (max-width:$small-mobile){
+    font-size: 32px;
+    line-height: 40px;
+  }
+}
+h2,.h2{
+  font-size: 50px;
+  font-family: 'Averta-Bold';
+  line-height:normal;
+  @media (max-width:$large-desktop){
+    font-size: 40px;
+  }
+  @media (max-width:$tablet){
+    font-size: 35px;
+  }
+  @media (max-width:$small-mobile){
+    font-size: 30px;
+  }
+}
+h3,.h3{
+  font-size: 32px;
+  line-height:normal;
+  @media (max-width:$large-desktop){
+    font-size: 30px;
+  }
+  @media (max-width:$tablet){
+    font-size: 25px;
+  }
+  @media (max-width:$small-mobile){
+    font-size: 20px;
+  }
+}
+h4,.h4{
+  font-size: 24px;
+  line-height:normal;
+  @media (max-width:$large-desktop){
+    font-size: 21px;
+  }
+  @media (max-width:$tablet){
+    font-size: 18px;
+  }
+  
+}
+h5,.h5{
+  font-size: 20px;
+  line-height:normal;
+  @media (max-width:$large-desktop){
+    font-size: 20px;
+  }
+  @media (max-width:$tablet){
+    font-size: 18px;
+  }
+  @media (max-width:$small-mobile){
+    font-size: 16px;
+  }
+}
+h6,.h6{
+  font-size: 18px;
+  line-height:normal;
+  @media (max-width:$large-desktop){
+    font-size: 16px;
+  }
+  @media (max-width:$small-mobile){
+    font-size: 14px;
+  }
+}
+p,.para{
+  font-size: 17px;
+  line-height: 26px;
+  color: #4c4a4a;
+  @media (max-width:$tablet){
+      font-size: 16px;
+      line-height: 24px;
+
+  }
+  @media (max-width:$small-mobile){
+      font-size: 15px;
+  }
+}
+.text-25{
+  font-size: 25px;
+  @media (max-width:$tablet){
+      font-size: 20px;
+  }
+  @media (max-width:$small-mobile){
+      font-size: 16px;
+  }
+}
+a{
+  text-decoration: none;
+  &:hover{
+    color: #0f81bf
+  }
+}
+.color-black{
+  color:$color-black ;
+}
+.color-light-blue{
+  color: $color-light-blue;  
+}
+.text-dark{
+  color: #131313 !important;
+}
+.text-p-gray{
+  color: #4c4a4a;
+}
+.font-weight-300{
+  font-family:'Averta-Light';
+}
+.font-weight-400{
+  font-family:'Averta-Regular';
+}
+.font-weight-500{
+    font-family:'Averta-Semibold';
+}
+.font-weight-600{
+    font-family:'Averta-Bold';
+}
+.text-blue {
+  color: #02bfe1;
+}
+.padding-100{
+  padding: 70px 0;
+  @media (max-width:$large-desktop){
+    padding: 60px 0;
+     
+ }
+  @media (max-width:$small-mobile){
+     padding: 45px 0;
+      
+  }
+}
+.paddingY-10{
+  padding: 80px 0;
+  @media (max-width:$large-desktop){
+      padding: 70px 0;
+  }
+  @media (max-width:$tablet){
+      padding: 60px 0;
+  }
+  @media (max-width:$small-mobile){
+      padding:45px 0;
+  }
+}
+.paddingB-10{
+  padding-bottom: 80px;
+  @media (max-width:$large-desktop){
+      padding-bottom: 70px;
+  }
+  @media (max-width:$tablet){
+      padding-bottom: 60px;
+  }
+  @media (max-width:$small-mobile){
+      padding-bottom:45px;
+  }
+}
+
+.first_section{
+  margin-top: 4rem;
+    @media (max-width:$small-mobile){
+      margin-top: 5rem;
+  }
+}
+
+.before-line{
+  margin-left: 70px;
+  position: relative;
+  &::before{
+  content: "";
+      position: absolute;
+      left: -35px;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 3px;
+      background-image: $gradient-main;
+      top: 50%;
+  }
+}
+main{
+  padding-left: 90px;
+  @media (max-width: $medium-desktop){
+    padding:0 
+  }
+}
+.container-fluid {
+  padding: 0 20px 0 20px;
+  @media (max-width: $mobile){
+    padding: 0 15px 0 15px
+  }
+  
+}
+
+@media (min-width:$tablet){
+  .container-fluid {
+     padding: 0 40px 0 40px;
+  }
+}
+
+@media (min-width: $medium-desktop){
+  .container-fluid {
+     padding: 0 50px 0 50px;
+   }
+}
+
+@media (min-width: $large-desktop){
+  .container-fluid {
+    padding: 0 60px 0 60px;
+  }
+}
+.cta-section.pb-5 {
+  padding-bottom: 45px !important;
+}
+.mat-tab-group.mat-primary .mat-ink-bar, .mat-tab-nav-bar.mat-primary .mat-ink-bar{
+  display: none;
+}
+.mat-ripple{
+  overflow: initial;
+}
+.mat-tab-label, .mat-tab-group{
+  font-family: 'Averta-Regular';
+}
+.mat-tab-header {
+  border-bottom:none;
+}
+gallery-thumbs.ng-star-inserted {
+  display: none;
+}
+.cdk-overlay-pane lightbox {
+  max-height: 98vh;
+  width: 935px;
+}
+gallery{
+  background-color: #fbfbfb !important;
+
+  .g-slider {
+      gallery-image{
+      height: auto;
+   }
+   gallery-item{
+      overflow-y: scroll;
+   
+      &:nth-child(20){
+        gallery-image{
+          height: 100%;
+          img{
+            height: auto;
+          }
+        }
+      }
+      
+      &:nth-child(21){
+        gallery-image{
+          height: 100%;
+          img{
+            height: auto;
+          }
+        }
+      }
+      &:nth-child(22){
+
+        gallery-image{
+          height: 100%;
+          img{
+            height: auto;
+          }
+        }
+      }
+      &:nth-child(23){
+
+        gallery-image{
+          height: 100%;
+          img{
+            height: auto;
+          }
+        }
+      }
+   }
+    
+ 
+    .g-image-item {
+      margin: 25px 0px;
+      width: 90%;
+      box-shadow: rgb(0 0 0 / 15%) 0px 15px 25px, rgb(0 0 0 / 5%) 0px 5px 10px
+    }
+  }
+  
+}
+.g-btn-close {
+  top: 10px!important;
+  
+  width: 15px!important;
+
+}
+.g-btn-close path {
+  fill: rgb(31, 31, 31)!important;
+}
+.g-btn-close svg{
+  opacity: 1!important;
+  filter: unset!important;
+}
+gallery-nav path{
+  fill: rgb(31, 31, 31)!important;
+}
+
+gallery-nav svg{
+  opacity: 1!important;
+  filter: unset!important;
+}
+gallery-nav .g-nav-next{
+  width: 22px;
+} 
+gallery-nav .g-nav-prev{
+  width: 22px;
+}
+
+gallery-item::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color: #F5F5F5;
+}
+
+gallery-item::-webkit-scrollbar
+{
+  width: 0px;
+  background-color: #F5F5F5;
+}
+
+gallery-item::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #c1c1c1;
+}
+.bg-light {
+  background: #f8f9fa !important;
+}
+.toast-success{
+  background: $gradient-main !important;
+  background-color: inherit !important;
+  &::before{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+  .toast-close-button{
+    top: -0.1em;
+  }
+}
+.toast-container .ngx-toastr{
+  line-height: 1;
+  padding: 20px !important;
+  padding-left: 50px !important;
+}
+
+.ngx-toastr {
+  position: relative;
+}
+.toast-error{
+  background: $gradient-danger !important;
+  background-color: inherit !important;
+  &::before{
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    content: "\f06a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    transform: translateY(-50%);
+    font-size: 20px;
+  }
+  .toast-close-button{
+    top: -0.1em;
+  }
+}
+
